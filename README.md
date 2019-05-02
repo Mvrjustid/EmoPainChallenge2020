@@ -6,16 +6,17 @@
 
 In this challenge, we aim to attract the interest of a large audience of researchers working on body movement and muscle activity 
 analysis, and to move the attention of the machine learning community beyond computer vision based approaches (as a means of movement 
-analysis) to motion capture data from wearable devices. The latter is critical and timely as wearable devices are increasingly being 
-used to ubiquitously support wellbeing. We also aim to attract more the ubiquitous computing researchers to collaborate with the ACII 
-community in tackling the critical problem of pain management [Aung et al. 2016b](https://ieeexplore.ieee.org/abstract/document/7173007). 
+analysis) to motion capture data from wearable devices. 
+<br>
+The latter is critical and timely as wearable devices are increasingly being used to ubiquitously support wellbeing. 
+<br>
+We also aim to attract more the ubiquitous computing researchers to collaborate with the ACII community in tackling the critical problem of pain management [Aung et al. 2016b](https://ieeexplore.ieee.org/abstract/document/7173007). 
 
 For this reason, the workshop will invite research papers on detection of pain and related states, pain behaviour analysis, and clinical applications of related systems with the expected outcome of
 <br>
 - Increasing the number of researchers working in the area of pain and related behaviour analysis and recognition;
 - Improving automatic recognition performance for pain level, self-efficacy, and protective behaviour; 
 - Extending the network of researchers working on body movement analysis beyond ACII.
-
 
 ## Challenge Description
 
@@ -24,10 +25,17 @@ For this reason, the workshop will invite research papers on detection of pain a
 
 
 ## Participate
+To participate in the EmoPain movement behavior challenge, please download, fill and sign the form (link is coming soon).
+<br>
+Then return the form to 
+<br>
+emopain19@gmail.com
 
+## Metric
+For task 1, we use the mean F1 score
+<br>
 
 ## Paper Submission
-
 Paper will be submitted through EasyChair(Link is coming soon).
 <br>
 We are expecting at least 20 submissions and we plan a 50% acceptance rate. 
@@ -37,9 +45,7 @@ We have received many requests for access to the EmoPain dataset and this challe
 Paper length will be up to 7 pages (6 pages + 1 page for references). 
 The reviewing process will be double blind.
 
-
 ## Important Dates
-
 - Challenge Website Up: 6th of May, 2019
 - Training and Validation Data Available: 8th of May, 2019
 - Testing Data Available: 27th of May, 2019 
