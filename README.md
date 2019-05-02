@@ -34,6 +34,7 @@ Due to GDPR regulations, the specific data we included are low-level mathematic 
 <img width="400" height="320" src="images/Angle.PNG">
 </p>
 
+
 2. **Upper envelope of the surface EMG data** for the description of muscle activity. See the diagrams took from [Aung et al. 2016](https://ieeexplore.ieee.org/abstract/document/7173007), [Wang et al. 2019a](https://arxiv.org/abs/1902.08990):
 
 <p align="center">
