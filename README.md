@@ -59,8 +59,15 @@ Then return the form to
 emopain19@gmail.com
 
 ## Metric
-For task 1, we use the mean F1 score
-<br>
+For task 1, we use the mean F1 score as the metric:
+
+<p align="center">
+<img width="272" height="64" src="images/meanf1.PNG">
+</p>
+
+where the pre and recall is the precision and recall ratio of class c (c=2, protective and non-protective).
+
+For task 2, we use
 
 ## Paper Submission
 Paper will be submitted through EasyChair(Link is coming soon).
