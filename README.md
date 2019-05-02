@@ -12,11 +12,9 @@ community in tackling the critical problem of pain management [Aung et al. 2016b
 
 For this reason, the workshop will invite research papers on detection of pain and related states, pain behaviour analysis, and clinical applications of related systems with the expected outcome of
 <br>
-i)   Increasing the number of researchers working in the area of pain and related behaviour analysis and recognition;
-<br>
-ii)  Improving automatic recognition performance for pain level, self-efficacy, and protective behaviour; 
-<br>
-iii) Extending the network of researchers working on body movement analysis beyond ACII.
+- Increasing the number of researchers working in the area of pain and related behaviour analysis and recognition;
+- Improving automatic recognition performance for pain level, self-efficacy, and protective behaviour; 
+- Extending the network of researchers working on body movement analysis beyond ACII.
 
 ### Challenge Description
 
@@ -40,21 +38,14 @@ The reviewing process will be double blind.
 
 ### Important Dates
 
-Challenge Website Up: 6th of May, 2019
-
-Training and Validation Data Available: 8th of May, 2019
-
-Testing Data Available: 27th of May, 2019
-
-Results Uploading Deadline: 9th of June, 2019
-
-Paper Submission Deadline: 18th of June 2019
-
-Notification: 8th of July 2019
-
-Camera Ready due: 12th of July, 2019
-
-Workshop Date: 3rd of September, 2019
+- Challenge Website Up: 6th of May, 2019
+- Training and Validation Data Available: 8th of May, 2019
+- Testing Data Available: 27th of May, 2019 
+- Results Uploading Deadline: 9th of June, 2019
+- Paper Submission Deadline: 18th of June 2019
+- Notification: 8th of July 2019 
+- Camera Ready due: 12th of July, 2019 
+- Workshop Date: 3rd of September, 2019
 
 ### Keynote Speakers
 
