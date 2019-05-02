@@ -58,9 +58,9 @@ Workshop Date: 3rd of September, 2019
 
 ### Keynote Speakers
 
-#### Professor Rebecca Slater, Oxford University, UK (tentative)
-<br>
-#### Professor Chris Eccleston, University of Bath, UK (tentative)
+#### [Professor Rebecca Slater, Oxford University, UK (tentative)](https://www.paediatrics.ox.ac.uk/team/rebeccah-slater)
+
+#### [Professor Chris Eccleston, University of Bath, UK (tentative)](https://researchportal.bath.ac.uk/en/persons/chris-eccleston)
 <br>
 We also aim to have a multidisciplinary panel (in line with the inclusion theme of ACII 2019) on the requirements and challenges from 
 real world applications for the above-discussed technology. We hope that the discussion will trigger interest that leads to new 
