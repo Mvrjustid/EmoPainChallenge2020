@@ -28,14 +28,13 @@ The EmoPain Movement Behavior challenge comprises two tasks based on the EmoPain
 The EmoPain dataset we provided contains full-body MoCap data and surface EMG data collected from 4 places on the back, captured from 12 healthy subjects and 18 patients. Continuous labelling of protective movement behavior is provided per timestep, while the label of pain-level is provided per movement instance. 
 <br>
 Due to GDPR regulations, the specific data we included are low-level mathematic features of the original data: 
-1. **Angles** (calculated from each three relevant anatomical points) and **Energies** (the respective angular velocities) for the description of movement. See the diagram took from [Wang et al. 2019b](https://arxiv.org/abs/1904.10824):
+- **Angles** (calculated from each three relevant anatomical points) and **Energies** (the respective angular velocities) for the description of movement. See the diagram took from [Wang et al. 2019b](https://arxiv.org/abs/1904.10824):
 
 <p align="center">
 <img width="400" height="320" src="images/Angle.PNG">
 </p>
 
-
-2. **Upper envelope of the surface EMG data** for the description of muscle activity. See the diagrams took from [Aung et al. 2016](https://ieeexplore.ieee.org/abstract/document/7173007), [Wang et al. 2019a](https://arxiv.org/abs/1902.08990):
+- **Upper envelope of the surface EMG data** for the description of muscle activity. See the diagrams took from [Aung et al. 2016](https://ieeexplore.ieee.org/abstract/document/7173007), [Wang et al. 2019a](https://arxiv.org/abs/1902.08990):
 
 <p align="center">
 <img width="160" height="240" src="images/sEMGcapture.PNG">
