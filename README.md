@@ -29,9 +29,12 @@ iii) Extending the network of researchers working on body movement analysis beyo
 
 ### Paper Submission
 
-Paper will be submitted through EasyChair. (Link is coming soon)
+Paper will be submitted through EasyChair(Link is coming soon).
+<br>
 We are expecting at least 20 submissions and we plan a 50% acceptance rate. 
+<br>
 We have received many requests for access to the EmoPain dataset and this challenge is an opportunity to open it. 
+<br>
 Paper length will be up to 7 pages (6 pages + 1 page for references). 
 The reviewing process will be double blind.
 
@@ -56,15 +59,12 @@ Workshop Date: 3rd of September, 2019
 ### Keynote Speakers
 
 #### Professor Rebecca Slater, Oxford University, UK (tentative)
-
+<br>
 #### Professor Chris Eccleston, University of Bath, UK (tentative)
-
+<br>
 We also aim to have a multidisciplinary panel (in line with the inclusion theme of ACII 2019) on the requirements and challenges from 
 real world applications for the above-discussed technology. We hope that the discussion will trigger interest that leads to new 
 approaches for developing automatic recognition systems. The panel will be led by a member of the organizing committee (Dr Amanda 
 Williams, clinical psychologist and academic expert in pain) and include 2 keynote speakers (see above), a senior physiotherapist (Mr 
 Diarmuid Denneny, Pain Management Centre, UCLH NHS Foundation Trust, UK) and an HCI researcher (Dr Aneesha Singh, UCL, with long-term 
 research experience with pain patients).
-
-
-
