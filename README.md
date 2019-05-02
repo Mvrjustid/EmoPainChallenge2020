@@ -1,5 +1,5 @@
 <p align="center">
-<img width="700" height="210" src="https://github.com/CodeShareBot/EmoPainChallenge19/blob/master/images/Animation.PNG">
+<img width="700" height="210" src="images/Animation.PNG">
 </p>
 
 ## Welcome to EmoPain Challenge 2019
