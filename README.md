@@ -1,19 +1,16 @@
-## Welcome to GitHub Pages
+## Welcome to EmoPain Challenge 2019
 
-You can use the [editor on GitHub](https://github.com/CodeShareBot/PDEmoPain19/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+In this challenge, we aim to attract the interest of a large audience of researchers working on body movement and muscle activity analysis, and to move the attention of the machine learning community beyond computer vision based approaches (as a means of movement analysis) to motion capture data from wearable devices. The latter is critical and timely as wearable devices are increasingly being used to ubiquitously support wellbeing. We also aim to attract more the ubiquitous computing researchers to collaborate with the ACII community in tackling the critical problem of pain management [Aung et al. 2016b](https://ieeexplore.ieee.org/abstract/document/7173007). 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+For this reason, the workshop will invite research papers on detection of pain and related states, pain behaviour analysis, and clinical applications of related systems with the expected outcome of: 
+1) increasing the number of researchers working in the area of pain and related behaviour analysis and recognition;
+2) improving automatic recognition performance for pain level, self-efficacy, and protective behaviour; 
+3) extending the network of researchers working on body movement analysis beyond ACII.
 
-### Markdown
+### Challenge Description
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Dataset
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CodeShareBot/PDEmoPain19/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Participate
