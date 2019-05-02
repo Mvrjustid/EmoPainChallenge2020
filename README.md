@@ -2,7 +2,7 @@
 <img width="700" height="210" src="images/Animation.PNG">
 </p>
 
-## Welcome to EmoPain Challenge 2019
+## Welcome to EmoPain Challenge 2019 - Movement Behavior Recognition
 
 In this challenge, we aim to attract the interest of a large audience of researchers working on body movement and muscle activity 
 analysis, and to move the attention of the machine learning community beyond computer vision based approaches (as a means of movement 
@@ -10,7 +10,7 @@ analysis) to motion capture data from wearable devices.
 <br>
 The latter is critical and timely as wearable devices are increasingly being used to ubiquitously support wellbeing. 
 <br>
-We also aim to attract more the ubiquitous computing researchers to collaborate with the ACII community in tackling the critical problem of pain management [Aung et al. 2016b](https://ieeexplore.ieee.org/abstract/document/7173007). 
+We also aim to attract more the ubiquitous computing researchers to collaborate with the ACII community in tackling the critical problem of pain management [Aung et al. 2016](https://ieeexplore.ieee.org/abstract/document/7173007). 
 
 For this reason, the workshop will invite research papers on detection of pain and related states, pain behaviour analysis, and clinical applications of related systems with the expected outcome of
 <br>
@@ -19,10 +19,37 @@ For this reason, the workshop will invite research papers on detection of pain a
 - Extending the network of researchers working on body movement analysis beyond ACII.
 
 ## Challenge Description
+The EmoPain Movement Behavior challenge comprises two tasks based on the EmoPain dataset, participant need to complete at least one of tasks:
+- **Task 1**: Protective Movement Behavior Detection with MoCap and surface EMG data: In this task, a binary detection model is required to detect the moment of protective behaivor exhibited by patients in a continous way. Data collected from healthy subjects without positive protective labelling are also provided. Participants may refer to previous papers [Aung et al. 2014](https://dl.acm.org/citation.cfm?id=2686916), [Aung et al. 2016](https://ieeexplore.ieee.org/abstract/document/7173007), [Wang et al. 2019a](https://arxiv.org/abs/1902.08990), [Wang et al. 2019b](https://arxiv.org/abs/1904.10824).
 
+- **Task 2**: Pain-level Recognition with Mocap and surface EMG data: Here, participants need to use the movement and surface EMG data to predict the pain-level of the subject during a movement instance. Three categories are included: No Pain, Low-level Pain, High-level Pain. Participants may refer to previous papers [Olugbade et al. 2014](https://dl.acm.org/citation.cfm?id=2663261), [Olugbade et al. 2015](https://ieeexplore.ieee.org/abstract/document/7344578), [Olugbade et al. 2018](https://ieeexplore.ieee.org/abstract/document/8269804), [Olugbade et al. 2019](https://dl.acm.org/citation.cfm?id=3299095).
 
 ## Dataset
+The EmoPain dataset we provided contains full-body MoCap data and surface EMG data collected from 4 places on the back, captured from 12 healthy subjects and 18 patients. Continuous labelling of protective movement behavior is provided per timestep, while the label of pain-level is provided per movement instance. 
+<br>
+Due to GDPR regulations, the specific data we included are low-level mathematic features of the original data: 
+1. **Angles** (calculated from each three relevant anatomical points) and **Energies** (the respective angular velocities) for the description of movement. See the diagram took from [Wang et al. 2019b](https://arxiv.org/abs/1904.10824):
 
+<p align="center">
+<img width="400" height="320" src="images/Angle.PNG">
+</p>
+
+2. **Upper envelope of the surface EMG data** for the description of muscle activity. See the diagrams took from [Aung et al. 2016](https://ieeexplore.ieee.org/abstract/document/7173007), [Wang et al. 2019a](https://arxiv.org/abs/1902.08990):
+
+<p align="center">
+<img width="160" height="240" src="images/sEMGcapture.PNG">
+<img width="333" height="252" src="images/sEMG.PNG">
+</p>
+
+As a result, the data matrix provided will looks like (took from [Wang et al. 2019a](https://arxiv.org/abs/1902.08990)):
+<p align="center">
+<img width="776" height="192" src="images/data.PNG">
+</p>
+
+The dataset is divided randomly into 
+- Training Set (10 patients, 6 healthy subjects)
+- Validation Set (4 patients, 3 healhy subjects)
+- Testing Set (4 patients, 3 healthy subjects)
 
 ## Participate
 To participate in the EmoPain movement behavior challenge, please download, fill and sign the form (link is coming soon).
