@@ -20,9 +20,9 @@ For this reason, the workshop will invite research papers on detection of pain a
 
 ## Challenge Description
 The EmoPain Movement Behavior challenge comprises two tasks based on the EmoPain dataset, participant need to complete at least one of tasks:
-- **Task 1**: Protective Movement Behavior Detection with MoCap and surface EMG data: In this task, a binary detection model is required to detect the moment of protective behaivor exhibited by patients in a continous way. Data collected from healthy subjects without positive protective labelling are also provided. Participants may refer to previous papers [Aung et al. 2014](https://dl.acm.org/citation.cfm?id=2686916), [Aung et al. 2016](https://ieeexplore.ieee.org/abstract/document/7173007), [Wang et al. 2019a](https://arxiv.org/abs/1902.08990), [Wang et al. 2019b](https://arxiv.org/abs/1904.10824).
+- **Task 1**: Protective Movement Behavior Detection with MoCap and surface EMG data: In this task, a binary detection model is required to detect the moment of protective behaivor exhibited by patients in a continous way. Data collected from healthy subjects without positive protective labelling are also provided. Participants may refer to previous papers [Aung et al. 2014](https://dl.acm.org/citation.cfm?id=2686916), [Aung et al. 2016](https://ieeexplore.ieee.org/abstract/document/7173007), [Wang et al. 2019a](https://arxiv.org/abs/1902.08990), [Wang et al. 2019b](https://arxiv.org/abs/1904.10824). The training and validation set comprise continuous movement plus sEMG data with continuous binary groudtruth  (per timestep) of selected subjects. The testing set comprises N data windows of the rest subjects with 3s length and 75% overlapping ratio, results reported from you should be N predicted labels.
 
-- **Task 2**: Pain-level Recognition with Mocap and surface EMG data: Here, participants need to use the movement and surface EMG data to predict the pain-level of the subject during a movement instance. Three categories are included: No Pain, Low-level Pain, High-level Pain. Participants may refer to previous papers [Olugbade et al. 2014](https://dl.acm.org/citation.cfm?id=2663261), [Olugbade et al. 2015](https://ieeexplore.ieee.org/abstract/document/7344578), [Olugbade et al. 2018](https://ieeexplore.ieee.org/abstract/document/8269804), [Olugbade et al. 2019](https://dl.acm.org/citation.cfm?id=3299095).
+- **Task 2**: Pain-level Recognition with Mocap and surface EMG data: Here, participants need to use the movement and surface EMG data to predict the pain-level of the subject during a movement instance. Three categories are included: No Pain, Low-level Pain, High-level Pain. Participants may refer to previous papers [Olugbade et al. 2014](https://dl.acm.org/citation.cfm?id=2663261), [Olugbade et al. 2015](https://ieeexplore.ieee.org/abstract/document/7344578), [Olugbade et al. 2018 (https://ieeexplore.ieee.org/abstract/document/8269804), [Olugbade et al. 2019](https://dl.acm.org/citation.cfm?id=3299095). The training and validation set comprise movement instances (complete movement segments) of each selected subjects, while groudtruth of 3 categories is providede per instance. The testing set comprises N movement instances of the rest subjects, results reproted from you should be N predicted labels.
 
 ## Dataset
 The EmoPain dataset we provided contains full-body MoCap data and surface EMG data collected from 4 places on the back, captured from 12 healthy subjects and 18 patients. Continuous labelling of protective movement behavior is provided per timestep, while the label of pain-level is provided per movement instance. 
@@ -57,6 +57,11 @@ To participate in the EmoPain movement behavior challenge, please download, fill
 Then return the form to 
 <br>
 emopain19@gmail.com
+<br>
+
+After the release of testing data, each team has 5 chances to upload the required results.
+
+The performance rank will only be put online before the workshop day.
 
 ## Metric
 For task 1, we use the mean F1 score as the metric:
