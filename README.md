@@ -32,8 +32,9 @@ Due to GDPR regulations, the specific data we included are low-level mathematic 
 <img width="160" height="240" src="images/sEMGcapture.PNG">
 <img width="333" height="252" src="images/sEMG.PNG">
 </p>
-
-  As a result, the data matrix provided will looks like (took from [Wang et al. 2019a](https://arxiv.org/abs/1902.08990)):
+<p align="center">
+As a result, the data matrix provided will looks like:
+</p>
 <p align="center">
 <img width="776" height="192" src="images/data.PNG">
 </p>
