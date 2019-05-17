@@ -16,6 +16,7 @@ The EmoPain Movement Behavior challenge comprises two tasks based on the EmoPain
 
 The EmoPain dataset contains facial expressions, full-body MoCap data and surface EMG data collected from 4 places on the back, captured from 12 healthy subjects and 18 patients with chronic lower back pain while doing physical exercise. 
 <br>
+<br>
 For the facial expression, continuous labelling of pain levels is provided. For the movement behavior data, continuous labelling of protective movement behavior is provided per timestep, while the label of pain-level is provided per exercise instance.
 <br>
 Due to GDPR regulations, the specific data we included are low-level mathematic features of the original data: 
