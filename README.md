@@ -33,7 +33,7 @@ Due to GDPR regulations, the specific data we included are low-level mathematic 
 <img width="333" height="252" src="images/sEMG.PNG">
 </p>
 
-As a result, the data matrix provided will looks like (took from [Wang et al. 2019a](https://arxiv.org/abs/1902.08990)):
+  As a result, the data matrix provided will looks like (took from [Wang et al. 2019a](https://arxiv.org/abs/1902.08990)):
 <p align="center">
 <img width="776" height="192" src="images/data.PNG">
 </p>
@@ -79,9 +79,9 @@ Paper length will be up to 7 pages (6 pages + 1 page for references).
 The reviewing process will be double blind.
 
 ## Important Dates
-- Challenge Website Up: 6th of May, 2019
-- Training and Validation Data Available: 8th of May, 2019
-- Testing Data Available: 27th of May, 2019 
+
+- Training and Validation Data Available: 24th of May, 2019
+- Testing Data Available: 31th of May, 2019 
 - Results Uploading Deadline: 9th of June, 2019
 - Paper Submission Deadline: 18th of June 2019
 - Notification: 8th of July 2019 
