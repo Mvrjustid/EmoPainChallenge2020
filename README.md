@@ -33,7 +33,7 @@ Due to GDPR regulations, the specific data we included are low-level mathematic 
 <img width="333" height="252" src="images/sEMG.PNG">
 </p>
 <p align="center">
-As a result, the data matrix provided will looks like:
+As a result, the data matrix provided will be like:
 </p>
 <p align="center">
 <img width="776" height="192" src="images/data.PNG">
