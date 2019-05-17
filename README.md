@@ -35,6 +35,8 @@ As a result, the data matrix provided will looks like (took from [Wang et al. 20
 <img width="776" height="192" src="images/data.PNG">
 </p>
 
+- **Facial geometric feature plus deep feature** for the pain recognition from facial expression. Details to come soon. 
+
 The dataset is divided randomly into 
 - Training Set (10 patients, 6 healthy subjects)
 - Validation Set (4 patients, 3 healhy subjects)
