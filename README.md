@@ -52,7 +52,7 @@ To participate in the EmoPain movement behavior challenge, please download, fill
 <br>
 Then return the form to 
 <br>
-emopain19@gmail.com
+**emopain19@gmail.com** 
 <br>
 
 After the release of testing data, each team has 5 chances to upload the required results.
