@@ -82,10 +82,10 @@ The reviewing process will be double blind.
 
 ## Important Dates
 
-- Training and Validation Data Available: 24th of May, 2019
-- Testing Data Available: 31th of May, 2019 
-- Results Uploading Deadline: 9th of June, 2019
-- Paper Submission Deadline: 18th of June 2019
+- Training and Validation Data Available: 14th of June, 2019
+- Testing Data Available: 19th of June, 2019 
+- Results Uploading Deadline: 24th of June, 2019
+- Paper Submission Deadline: 25th of June 2019
 - Notification: 8th of July 2019 
 - Camera Ready due: 12th of July, 2019 
 - Workshop Date: 3rd of September, 2019
