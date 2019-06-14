@@ -3,31 +3,25 @@
 </p>
 
 ## Challenge Description
-The EmoPain Movement Behavior challenge comprises three tasks based on the EmoPain dataset, participant need to complete at least one of tasks:
+The EmoPain Movement Behavior challenge comprises three tasks, participants should complete at least one of them. The tasks are based on the EmoPain dataset and are as follows:
 
-- **Task 1**: Protective Movement Behavior Detection from MoCap and surface EMG data: The aim of this task is to build binary classification models to continuosly detect events of protective behaviour (e.g. hesitation) during the execution of an exercise (e.g. sit-to-stand). Data collected from healthy subjects without protective behaviour are also provided. Participants may refer to previous papers [Aung et al. 2014](https://dl.acm.org/citation.cfm?id=2686916), [Aung et al. 2016](https://ieeexplore.ieee.org/abstract/document/7173007), [Wang et al. 2019a](https://arxiv.org/abs/1902.08990), [Wang et al. 2019b](https://arxiv.org/abs/1904.10824). The training and validation set comprise continuous movement data plus sEMG data with **continuous binary** groudtruth labels (per timestep) of selected subjects. The testing set comprises data windows from another pool of participants organized as a set of windows of 3s length and 75% overlapping ratio. The evaluation performance will be computed for such windos segments.
+- **Movement Behaviour Classification Task**: The aim of this task is to build a binary classification model to continuously detect events of protective behaviour (e.g. hesitation) in participants with chronic lower back pain (CLBP) during exercise performance (e.g. sit-to-stand), based on body movement and muscle activity. We provide training, validation, and test data, which comprise joint angles and energies as well as surface electromyography (sEMG) data from both participants with CLBP and healthy control participants. The data comes with **continuous binary** labels (i.e. one label per timestep). Participants see below for details about these data, and how to access the data for this task. A README document will be attached to the data to provide more detailed information.  
 
-- **Task 2**: Pain-level Recognition from Mocap and surface EMG data: The aim of this taks  is to predict the level of pain perceived by person within a rehabilation exercise on the bases of movement and surface EMG data. Three levels of pain are considered: No Pain, Low-level Pain, High-level Pain. Participants may refer to previous papers [Olugbade et al. 2014](https://dl.acm.org/citation.cfm?id=2663261), [Olugbade et al. 2015](https://ieeexplore.ieee.org/abstract/document/7344578), [Olugbade et al. 2018](https://ieeexplore.ieee.org/abstract/document/8269804), [Olugbade et al. 2019](https://dl.acm.org/citation.cfm?id=3299095). The training and validation set comprise movement instances (complete movement segments) of each selected subjects, while groudtruth of 3 categories is providede per instance. The testing set comprises N movement instances of the rest subjects, results reproted from you should be N predicted labels.
+- **Pain Recognition from Movement Task**: The aim of this task is to build a classification model to differentiate between a participant with CLBP and a healthy control participant as well as differentiate between two levels of self-reported pain for participants with CLBP (in essence, classification of three levels of pain: Healthy, Low-level Pain, High-level Pain), based on body movement and muscle activity during exercise performance. We provide training, validation, and test data, which comprise joint angles and energies as well as surface electromyography (sEMG) data from both participants with CLBP and healthy control participants. The data comes with three class labels per instance. Participants should see below for details about these data, and how to access the data for this task. A README document will be attached to the data to provide more detailed information.
 
-- **Task 3**: Pain-level Recognition from facial expression features: The aim of this task is to continuosly predict a person's pain-level from their facial expression. Participants may refer to previous papers [Aung et al. 2016](https://ieeexplore.ieee.org/abstract/document/7173007). The training and validation set comprise continuos instances of facial features extracted from videos of participants (healthy and people suffering from chronic pain) during physical activity.
+- **Pain Face Recognition Task**: The aim of this task is to build a detection model to differentiate between a participant with CLBP and a healthy control participant as well as continuously recognise the levels of observer-rated pain of participants with CLBP, based on facial expression during exercise performance. We provide training, validation, and test data, which comprise features extracted from face video data from both participants with CLBP and healthy control participants. Participants should see below for details about these data, and how to access the data for this task. A README document will be attached to the data to provide more detailed information.
 
 
 
 ## Dataset
 
-The EmoPain dataset contains facial expressions, full-body MoCap data and surface EMG data collected from 4 places on the back, captured from 12 healthy subjects and 18 patients with chronic lower back pain while doing physical exercise. 
-<br>
-<br>
-For the facial expression, continuous labelling of pain levels is provided. For the movement behavior data, continuous labelling of protective movement behavior is provided per timestep, while the label of pain-level is provided per exercise instance.
-<br>
-Due to GDPR regulations, the specific data we included are low-level mathematic features of the original data: 
-- **Angles** (calculated from each three relevant anatomical points) and **Energies** (the respective angular velocities) for the description of movement. See the diagram took from [Wang et al. 2019b](https://arxiv.org/abs/1904.10824):
+- **Joint Angles** (calculated from each three relevant anatomical points) and **Joint Energies** (the respective angular velocities) for the description of movement. See the diagram took from [Wang et al. 2019b](https://arxiv.org/abs/1904.10824):
 
 <p align="center">
 <img width="400" height="320" src="images/Angle.PNG">
 </p>
 
-- **Upper envelope of the surface EMG data** for the description of muscle activity. See the diagrams took from [Aung et al. 2016](https://ieeexplore.ieee.org/abstract/document/7173007), [Wang et al. 2019a](https://arxiv.org/abs/1902.08990):
+- **Upper envelope of the sEMG data** for the description of muscle activity. See the diagrams took from [Aung et al. 2016](https://ieeexplore.ieee.org/abstract/document/7173007), [Wang et al. 2019a](https://arxiv.org/abs/1902.08990):
 
 <p align="center">
 <img width="160" height="240" src="images/sEMGcapture.PNG">
