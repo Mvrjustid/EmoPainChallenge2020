@@ -3,7 +3,7 @@
 </p>
 
 ## Challenge Description
-The EmoPain challenge comprises three tasks. Participants should complete at least one of them. The tasks are based on the EmoPain dataset and are as follows:
+The EmoPain Challenge 2019 comprises three tasks. Participants should complete at least one of them. The tasks are based on the EmoPain dataset and are as follows:
 
 - **Movement Behaviour Classification Task**: The aim of this task is to build a binary classification model to continuously detect events of protective behaviour (e.g. hesitation) in participants with chronic lower back pain (CLBP) during exercise performance (e.g. sit-to-stand), based on body movement and muscle activity. We provide training, validation, and test data, which comprise joint angles and energies as well as surface electromyography (sEMG) data from both participants with CLBP and healthy control participants. The data comes with **continuous binary** labels (i.e. one label per timestep). Participants should see below for details about these data, and how to access the data for this task. A README document will be attached to the data to provide more detailed information.  
 
@@ -15,64 +15,54 @@ The EmoPain challenge comprises three tasks. Participants should complete at lea
 
 ## Dataset
 
-- **Joint Angles** (calculated from each three relevant anatomical points) and **Joint Energies** (the respective angular velocities) for the description of movement. See the diagram took from [Wang et al. 2019b](https://arxiv.org/abs/1904.10824):
+- **Joint Angles** and **Joint Energies** (calculated from the joint angles). See diagram below, taken from [Wang et al. 2019b](https://arxiv.org/abs/1904.10824):
 
 <p align="center">
 <img width="400" height="320" src="images/Angle.PNG">
 </p>
 
-- **Upper envelope of the sEMG data** for the description of muscle activity. See the diagrams took from [Aung et al. 2016](https://ieeexplore.ieee.org/abstract/document/7173007), [Wang et al. 2019a](https://arxiv.org/abs/1902.08990):
+- **sEMG data**. The data given is the upper envelope of the rectified sEMG sensor data. See diagram on left below for the placement of the sensors, taken from [Aung et al. 2016](https://ieeexplore.ieee.org/abstract/document/7173007)
 
 <p align="center">
 <img width="160" height="240" src="images/sEMGcapture.PNG">
 <img width="333" height="252" src="images/sEMG.PNG">
 </p>
-<p align="center">
-As a result, the data matrix provided will be like:
-</p>
-<p align="center">
-<img width="776" height="192" src="images/data.PNG">
-</p>
+
 
 - **Facial geometric feature plus deep feature** for the pain recognition from facial expression. Details coming soon. 
 
+## Dataset Partition
 The dataset is divided randomly into 
 - Training Set (10 patients, 6 healthy subjects)
 - Validation Set (4 patients, 3 healhy subjects)
 - Testing Set (4 patients, 3 healthy subjects)
 
 ## Participate
-To participate in the EmoPain movement behavior challenge, please download, fill and sign the form (link is coming soon).
-<br>
-Then return the form to 
-<br>
-**emopain19@gmail.com** 
+To participate in the EmoPain Challenge 2019, please download, fill, and sign the EULA (link coming soon). The form should then be sent to **emopain19@gmail.com**.
 <br>
 
-After the release of testing data, each team has 5 chances to upload the required results.
-
-The performance rank will only be put online before the workshop day.
+When we receive the form, the link to the training and validation sets will be emailed to the sender. At a later date, the link to the test set will also be forwarded.
+<br>
+The test set results should be sent by each participating team to the email address above. Each team can submit up to 5 different results. 
+<br>
+The test results performance ranking will be based on the metric described below. The ranking over all will be displayed on this website, before the workshop day.
 
 ## Metric
-For task 1 and 2, we use the mean F1 score as the metric:
+For the Movement Behaviour Classification and the Pain Recognition from Movement tasks, we will use the mean F1 score as the performance metric:
 
 <p align="center">
 <img width="272" height="64" src="images/meanf1.PNG">
 </p>
 
-where the pre and recall is the precision and recall ratio of class c (c=2, protective and non-protective).
+where _pre_ and _recall_ are the precision and recall ratios respectively of class _c_.
 
 For task 3, more information to come soon.
 
 ## Paper Submission
-Paper will be submitted through EasyChair(Link is coming soon).
+Papers should be up to 7 pages (6 pages + 1 page for references) and submitted through EasyChair (link coming soon). Please see below for dates. The reviewing process will be double blind.
 <br>
 We are expecting at least 20 submissions and we plan a 50% acceptance rate. 
 <br>
-We have received many requests for access to the EmoPain dataset and this challenge is an opportunity to open it. 
-<br>
-Paper length will be up to 7 pages (6 pages + 1 page for references). 
-The reviewing process will be double blind.
 
 ## Important Dates
 
