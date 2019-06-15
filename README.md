@@ -1,5 +1,5 @@
 <p align="center">
-<img width="700" height="210" src="images/Animation.PNG">
+<img width="700" height="210" src="images/Animation1.PNG">
 </p>
 
 ## Challenge Description
@@ -25,7 +25,6 @@ The EmoPain Challenge 2019 comprises three tasks. Participants should complete a
 
 <p align="center">
 <img width="160" height="240" src="images/sEMGcapture.PNG">
-<img width="333" height="252" src="images/sEMG.PNG">
 </p>
 
 
