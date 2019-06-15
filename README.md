@@ -35,7 +35,7 @@ The EmoPain Challenge 2019 comprises three tasks. Participants should complete a
 The dataset is divided randomly into 
 - Training Set (10 patients, 6 healthy subjects)
 - Validation Set (4 patients, 3 healhy subjects)
-- Testing Set (4 patients, 3 healthy subjects)
+- Test Set (4 patients, 3 healthy subjects)
 
 ## Participate
 To participate in the EmoPain Challenge 2019, please download, fill, and sign the EULA (link coming soon). The form should then be sent to **emopain19@gmail.com**.
