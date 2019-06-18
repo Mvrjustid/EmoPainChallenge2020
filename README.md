@@ -9,7 +9,7 @@ The EmoPain Challenge 2019 comprises three tasks. Participants should complete a
 
 - **Pain Recognition from Movement Task**: The aim of this task is to build a classification model to differentiate between a participant with CLBP and a healthy control participant as well as differentiate between two levels of self-reported pain for participants with CLBP (in essence, classification of three levels of pain: Healthy, Low-level Pain, High-level Pain), based on body movement and muscle activity during exercise performance. We provide training, validation, and test data, which comprise joint angles and energies as well as sEMG data from both participants with CLBP and healthy control participants. The data comes with three class labels per instance. Participants should see below for details about these data, and how to access the data for this task. A README document will be attached to the data to provide more detailed information.
 
-- **Pain Face Recognition Task**: The aim of this task is to build a detection model to differentiate between a participant with CLBP and a healthy control participant as well as continuously recognise the levels of observer-rated pain of participants with CLBP, based on facial expression during exercise performance. We provide training, validation, and test data, which comprise features extracted from face video data from both participants with CLBP and healthy control participants. Participants should see below for details about these data, and how to access the data for this task. A README document will be attached to the data to provide more detailed information.
+- **Pain Face Prediction Task**: The aim of this task is to build a classification/prediction model to differentiate between a participant with CLBP and a healthy control participant as well as continuously recognise the levels of observer-rated pain of participants with CLBP, based on facial expression during exercise performance. We provide training, validation, and test data, which comprise features extracted from face video data from both participants with CLBP and healthy control participants. Participants should see below for details about these data, and how to access the data for this task. A README document will be attached to the data to provide more detailed information.
 
 
 
@@ -28,13 +28,22 @@ The EmoPain Challenge 2019 comprises three tasks. Participants should complete a
 </p>
 
 
-- **Facial geometric feature plus deep feature** for the pain recognition from facial expression. Details coming soon. 
+- **Facial geometric feature plus deep feature** This includes facial landmarks, head pose, HOG, action unit occurrence and intensity values extracted from [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace), and deep-learned feature representations.Figure below shows the detailed description and the dimensions of the facial expression data.
+
+<p align="center">
+<img width="190" height="100" src="images/facefeature.PNG">
+</p>
 
 ## Dataset Partition
-The dataset is divided randomly into 
-- Training Set (10 patients, 6 healthy subjects)
-- Validation Set (4 patients, 3 healhy subjects)
-- Test Set (4 patients, 3 healthy subjects)
+The movement dataset is divided randomly into 
+- Training Set (10 CLBP participants, 6 healthy participants)
+- Validation Set (4 CLBP participants, 3 healhy participants)
+- Test Set (4 CLBP participants, 3 healhy participants)
+
+The face dataset is divided randomly into 
+- Training Set (9 CLBP participants, 12 healthy participants)
+- Validation Set (3 CLBP participants, 6 healhy participants)
+- Test Set (3 CLBP participants, 5 healhy participants)
 
 ## Participate
 To participate in the EmoPain Challenge 2019, please download, fill, and sign the EULA (link coming soon). The form should then be sent to **emopain19@gmail.com**.
@@ -55,12 +64,10 @@ For the Movement Behaviour Classification and the Pain Recognition from Movement
 
 where _pre_ and _recall_ are the precision and recall ratios respectively of class _c_.
 
-For task 3, more information to come soon.
+For task 3 with face data, Mean Sqaure Error (MSE), Mean Absolute Error (MAE), Pearson Coreelation Coefficient (PCC) and Concordance Correlation Coefficient (CCC) will be used.
 
 ## Paper Submission
 Papers should be up to 7 pages (6 pages + 1 page for references) and submitted through EasyChair (link coming soon). Please see below for dates. The reviewing process will be double blind.
-<br>
-We are expecting at least 20 submissions and we plan a 50% acceptance rate. 
 <br>
 
 ## Important Dates
