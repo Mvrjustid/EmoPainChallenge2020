@@ -31,7 +31,7 @@ The EmoPain Challenge 2019 comprises three tasks. Participants should complete a
 - **Facial geometric feature plus deep feature** This includes facial landmarks, head pose, HOG, action unit occurrence and intensity values extracted from [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace), and deep-learned feature representations.Figure below shows the detailed description and the dimensions of the facial expression data.
 
 <p align="center">
-<img width="190" height="100" src="images/facefeature.png">
+<img width="380" height="200" src="images/facefeature.png">
 </p>
 
 ## Dataset Partition
