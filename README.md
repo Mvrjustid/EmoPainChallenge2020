@@ -1,5 +1,5 @@
 <p align="center">
-<img width="700" height="210" src="images/Animation1.PNG">
+<img width="500" height="150" src="images/Animation1.PNG">
 </p>
 
 ## Challenge Description
