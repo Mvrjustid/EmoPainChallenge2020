@@ -18,7 +18,7 @@ The EmoPain Challenge 2019 comprises three tasks. Participants should complete a
 - **Joint Angles** and **Joint Energies** (calculated from the joint angles). See diagram below, taken from [Wang et al. 2019b](https://arxiv.org/abs/1904.10824):
 
 <p align="center">
-<img width="400" height="320" src="images/Angle.PNG">
+<img width="300" height="240" src="images/Angle.PNG">
 </p>
 
 - **sEMG data**. The data given is the upper envelope of the rectified sEMG sensor data. See diagram on left below for the placement of the sensors, taken from [Aung et al. 2016](https://ieeexplore.ieee.org/abstract/document/7173007)
@@ -31,7 +31,7 @@ The EmoPain Challenge 2019 comprises three tasks. Participants should complete a
 - **Facial geometric feature plus deep feature** This includes facial landmarks, head pose, HOG, action unit occurrence and intensity values extracted from [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace), and deep-learned feature representations.Figure below shows the detailed description and the dimensions of the facial expression data.
 
 <p align="center">
-<img width="380" height="200" src="images/facefeature.png">
+<img width="425" height="250" src="images/facefeature.png">
 </p>
 
 ## Dataset Partition
