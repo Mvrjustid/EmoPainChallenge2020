@@ -56,7 +56,7 @@ The test set results should be sent by each participating team to the email addr
 The test results performance ranking will be based on the metric described below. The ranking over all will be displayed on this website, before the workshop day.
 
 ## Metric
-For the Movement Behaviour Classification and the Pain Recognition from Movement tasks, we will use the mean F1 score as the performance metric:
+- For the Movement Behaviour Classification and the Pain Recognition from Movement tasks, we will use the mean F1 score as the performance metric:
 
 <p align="center">
 <img width="272" height="64" src="images/meanf1.PNG">
@@ -64,7 +64,7 @@ For the Movement Behaviour Classification and the Pain Recognition from Movement
 
 where _pre_ and _recall_ are the precision and recall ratios respectively of class _c_.
 
-For task 3 with face data, Mean Sqaure Error (MSE), Mean Absolute Error (MAE), Pearson Coreelation Coefficient (PCC) and Concordance Correlation Coefficient (CCC) will be used.
+- For task 3 with face data, Mean Sqaure Error (MSE), Mean Absolute Error (MAE), Pearson Coreelation Coefficient (PCC) and Concordance Correlation Coefficient (CCC) will be used.
 
 ## Paper Submission
 Papers should be up to 7 pages (6 pages + 1 page for references) and submitted through EasyChair (link coming soon). Please see below for dates. The reviewing process will be double blind.
