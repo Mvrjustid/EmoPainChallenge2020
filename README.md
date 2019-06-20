@@ -30,6 +30,7 @@ The EmoPain Challenge 2019 comprises three tasks. Participants should complete a
 
 - **Facial geometric feature plus deep feature** This includes facial landmarks, head pose, HOG, action unit occurrence and intensity values extracted from [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace), and deep-learned feature representations.Figure below shows the detailed description and the dimensions of the facial expression data.
 
+
 <p align="center">
 <img width="425" height="250" src="images/facefeature.png">
 </p>
@@ -38,10 +39,10 @@ The EmoPain Challenge 2019 comprises three tasks. Participants should complete a
 The movement dataset is divided randomly into 
 - Training Set (10 CLBP participants, 6 healthy participants)
 - Validation Set (4 CLBP participants, 3 healhy participants)
-- Test Set (4 CLBP participants, 3 healhy participants)
+- Test Set (3 CLBP participants, 5 healhy participants)
 
 The face dataset is divided randomly into 
-- Training Set (9 CLBP participants, 12 healthy participants)
+- Training Set (8 CLBP participants, 11 healthy participants)
 - Validation Set (3 CLBP participants, 6 healhy participants)
 - Test Set (3 CLBP participants, 5 healhy participants)
 
