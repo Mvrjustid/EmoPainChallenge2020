@@ -32,7 +32,7 @@ The EmoPain Challenge 2019 comprises three tasks. Participants should complete a
 
 
 <p align="center">
-<img width="425" height="250" src="images/facefeature.png">
+<img width="400" height="308" src="images/facefeature2.png">
 </p>
 
 ## Dataset Partition
