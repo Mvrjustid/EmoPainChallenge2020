@@ -73,12 +73,12 @@ Papers should be up to 7 pages (6 pages + 1 page for references) and submitted t
 
 ## Important Dates
 
-- Training and Validation Data Available: 14th of June, 2019
-- Testing Data Available: 19th of June, 2019 
-- Results Uploading Deadline: 24th of June, 2019
-- Paper Submission Deadline: 25th of June 2019
-- Notification: 8th of July 2019 
-- Camera Ready due: 12th of July, 2019 
+- Training and Validation Data Available: 28th of June, 2019
+- Testing Data Available: 3th of July, 2019 
+- Results Uploading Deadline: 7th of July, 2019
+- Paper Submission Deadline: 10th of July 2019
+- Notification: 15th of July 2019 
+- Camera Ready due: 19th of July, 2019 
 - Workshop Date: 3rd of September, 2019
 
 ## Keynote Speakers
