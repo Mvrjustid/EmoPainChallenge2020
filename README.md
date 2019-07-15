@@ -68,7 +68,7 @@ where _pre_ and _recall_ are the precision and recall ratios respectively of cla
 - For the task on face, Mean Sqaure Error (MSE), Mean Absolute Error (MAE), Pearson Coreelation Coefficient (PCC) and Concordance Correlation Coefficient (CCC) will be used.
 
 ## Paper Submission
-Papers should be up to 7 pages (6 pages + 1 page for references) and submitted through EasyChair (link coming soon). Please see below for dates. The reviewing process will be double blind.
+Papers should be up to 7 pages (6 pages + 1 page for references) and submitted through EasyChair (link coming soon). Please see below for dates. The reviewing process will be double-blind.
 <br>
 
 ## Important Dates (Postponed, more information coming soon)
