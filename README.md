@@ -71,7 +71,7 @@ where _pre_ and _recall_ are the precision and recall ratios respectively of cla
 Papers should be up to 7 pages (6 pages + 1 page for references) and submitted through EasyChair (link coming soon). Please see below for dates. The reviewing process will be double blind.
 <br>
 
-## Important Dates
+## Important Dates (Postponed, more information coming soon)
 
 - Training and Validation Data Available: 28th of June, 2019
 - Testing Data Available: 3th of July, 2019 
