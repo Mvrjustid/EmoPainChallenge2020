@@ -6,7 +6,7 @@
 Chronic pain is a major problem facing individuals, families, healthcare providers, and society as a whole. Technology that can assess the behaviour of a person with chronic pain and associated levels of pain and related states could deliver personalised therapies and support in long-term self-management of the condition particularly aiming to improve engagement in valued everyday physical activities. This vision is based on the multidisciplinary approach to chronic pain management advocated by clinicians and grounded in findings in pain research of the importance of addressing pain as a multifaceted experience (with physical, psychological, and social factors and outcomes). The EmoPain challenge provides an opportunity for the FG community to collectively contribute to solving the fundamental problem of automatic detection of pain behaviours and pain levels, based on real data collected from people with chronic pain performing movements that are identical to those that make up daily physical functioning.
 <br>
 
-The EmoPain challenge, to be held in conjunction with FG2020 is the first international challenge addressing pain and related behaviour detection. It is based on the EmoPain dataset which contains both face and multimodal movement data from real participants with chronic pain performing physical activity. Previous related benchmark datasets have been aimed at detection from facial cues (The UNBC-McMaster Shoulder Pain Expression Archive Database [Lucey et al. 2011]) or experimental pain (Biovid Heat Pain Database [Walter et al. 2013]) whereas body movement is a critical modality to consider in assessing pain experience. This is also the first time a controlled challenge in pain behaviour is held such that competitors only have access to the training and validation partition, while test partition is held back for performance comparison to ensure a level playing field. Participating teams will be required to send working programs, together with clear documentation of any input and output parameters and the organisers will run thee on the test data. Details of the challenge tasks and guidelines are provided below.
+The EmoPain challenge, to be held in conjunction with FG2020 is the first international challenge addressing pain and related behaviour detection. It is based on the EmoPain dataset which contains both face and multimodal movement data from real participants with chronic pain performing physical activity. Previous related benchmark datasets have been aimed at detection from facial cues (The UNBC-McMaster Shoulder Pain Expression Archive Database [Lucey et al. 2011](https://ieeexplore.ieee.org/abstract/document/5771462)) or experimental pain (Biovid Heat Pain Database [Walter et al. 2013](https://ieeexplore.ieee.org/abstract/document/6617456)) whereas body movement is a critical modality to consider in assessing pain experience. This is also the first time a controlled challenge in pain behaviour is held such that competitors only have access to the training and validation partition, while test partition is held back for performance comparison to ensure a level playing field. Participating teams will be required to send working programs, together with clear documentation of any input and output parameters and the organisers will run thee on the test data. Details of the challenge tasks and guidelines are provided below.
 <br>
 
 The organisers will write a baseline paper detailing the Challenge’s objectives, rules and baseline methods for comparison. This will include baseline experimental results on the test partition and would be available on the challenge website from 24th January 2020. To save space, participants are kindly requested to cite the baseline paper instead of reproducing the method descriptions and results contained in the paper.
@@ -57,7 +57,7 @@ The face dataset is divided randomly into
 - Test Set (3 CLBP participants, 5 healhy participants)
 
 ## Participate
-To participate in the EmoPain Challenge 2019, please download, fill, and sign the EULA (link coming soon). The form should then be sent to **emopain2020@gmail.com**.
+To participate in the EmoPain Challenge 2019, please download, fill, and sign the EULA (link coming soon). The form should then be sent to [emopain2020@gmail.com](mailto:emopain2020@gmail.com).
 <br>
 
 When we receive the form, the link to the training and validation sets will be emailed to the sender. At a later date, the link to the test set will also be forwarded.
@@ -92,7 +92,7 @@ Papers should be up to 7 pages (6 pages + 1 page for references) and submitted t
 - Workshop Date: 3rd of September, 2019
 
 ## Organisers
-### General Chairs
+**General Chairs**
 Prof Nadia Berthouze, UCL <br>
 Dr. Amanda Williams, UCL <br>
 Dr Michel Valstar, University of Nottingham <br>
@@ -100,7 +100,7 @@ Dr Hongying Meng, Brunel University London <br>
 Dr Min Aung, University of East Anglia <br>
 Dr Nicholas Lane, University of Oxford <br>
 
-### Data Chairs
+**Data Chairs**
 Dr Joy Egede, University of Nottingham <br>
 Dr Olugbade Temitayo, UCL <br>
 Chongyang Wang, UCL <br>
