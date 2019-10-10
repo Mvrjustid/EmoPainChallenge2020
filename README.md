@@ -73,7 +73,7 @@ At the end of the competition, the test results for all participants will be pub
 Each participating team would be required to submit a paper to the workshop, describing their proposed approach for tacking the challenge tasks as well as the results obtained. The organisers reserve the right to re-evaluate the findings, but will not participate in the challenge themselves. Participants are encouraged to compete in the three tasks. Submission should follow the FG 2020 stipulated guidelines for short papers, i.e., 4 pages + 1 page for reference. The review process will be double-blind.  More information on paper submission timelines is provided below. Please submit your paper through this link (coming soon). 
 <br>
 
-The results of the challenge will be presented at the EmoPain 2019 workshop to be held in conjunction with the [Automatic Face and Gesture Recognition 2020 Conference](https://fg2020.org/) in Buenos Aires, Argentina.
+The results of the challenge will be presented at the EmoPain 2019 workshop to be held in conjunction with the [Automatic Face and Gesture Recognition 2020](https://fg2020.org/) conference in Buenos Aires, Argentina.
 
 ## Important Dates
 
