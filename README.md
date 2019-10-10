@@ -75,7 +75,7 @@ Each participating team would be required to submit a paper to the workshop, des
 
 The results of the challenge will be presented at the EmoPain 2019 workshop to be held in conjunction with the [Automatic Face and Gesture Recognition 2020 Conference](https://fg2020.org/) in Buenos Aires, Argentina.
 
-## Important Dates (Postponed, more information coming soon)
+## Important Dates
 
 - 01 Oct 2019: Call for participation announced, data available (data, READMEs, and website draft are already ready for dissemination)
 - 24 Jan 2020: Final submission of challenge systems for evaluation
@@ -89,13 +89,12 @@ The results of the challenge will be presented at the EmoPain 2019 workshop to b
 ## Organisers
 **General Chairs** <br>
 <p align="center">
-<img width="400" height="320" src="images/Angle.PNG">
-<img width="160" height="240" src="images/sEMGcapture.PNG"> <br>
+<img width="263" height="300" src="images/nadia.PNG">
+<img width="263" height="300" src="images/amanda.PNG">
+<img width="263" height="300" src="images/Michell.PNG">
+<img width="263" height="300" src="images/Hongying.PNG">
 </p>
-Prof Nadia Berthouze, UCL   Dr. Amanda Williams, UCL<br>
-Dr. Amanda Williams, UCL <br>
-Dr Michel Valstar, University of Nottingham <br>
-Dr Hongying Meng, Brunel University London <br>
+Prof Nadia Berthouze, UCL   Dr. Amanda Williams, UCL Dr Michel Valstar, University of Nottingham Dr Hongying Meng, Brunel University London <br>
 Dr Min Aung, University of East Anglia <br>
 Dr Nicholas Lane, University of Oxford <br>
 
