@@ -2,8 +2,18 @@
 <img width="500" height="150" src="images/Animation1.PNG">
 </p>
 
+## Scope
+Chronic pain is a major problem facing individuals, families, healthcare providers, and society as a whole. Technology that can assess the behaviour of a person with chronic pain and associated levels of pain and related states could deliver personalised therapies and support in long-term self-management of the condition particularly aiming to improve engagement in valued everyday physical activities. This vision is based on the multidisciplinary approach to chronic pain management advocated by clinicians and grounded in findings in pain research of the importance of addressing pain as a multifaceted experience (with physical, psychological, and social factors and outcomes). The EmoPain challenge provides an opportunity for the FG community to collectively contribute to solving the fundamental problem of automatic detection of pain behaviours and pain levels, based on real data collected from people with chronic pain performing movements that are identical to those that make up daily physical functioning.
+<br>
+
+The EmoPain challenge, to be held in conjunction with FG2020 is the first international challenge addressing pain and related behaviour detection. It is based on the EmoPain dataset which contains both face and multimodal movement data from real participants with chronic pain performing physical activity. Previous related benchmark datasets have been aimed at detection from facial cues (The UNBC-McMaster Shoulder Pain Expression Archive Database [Lucey et al. 2011]) or experimental pain (Biovid Heat Pain Database [Walter et al. 2013]) whereas body movement is a critical modality to consider in assessing pain experience. This is also the first time a controlled challenge in pain behaviour is held such that competitors only have access to the training and validation partition, while test partition is held back for performance comparison to ensure a level playing field. Participating teams will be required to send working programs, together with clear documentation of any input and output parameters and the organisers will run thee on the test data. Details of the challenge tasks and guidelines are provided below.
+<br>
+
+The organisers will write a baseline paper detailing the Challenge’s objectives, rules and baseline methods for comparison. This will include baseline experimental results on the test partition and would be available on the challenge website from 24th January 2020. To save space, participants are kindly requested to cite the baseline paper instead of reproducing the method descriptions and results contained in the paper.
+
+
 ## Challenge Description
-The EmoPain Challenge 2019 comprises three tasks. Participants should complete at least one of them. The tasks are based on the EmoPain dataset and are as follows:
+The EmoPain 2020 Challenge consists of three main tasks focussed on pain recognition from facial expressions and body movements, as well as the recognition of pain-related body movements. Participants are expected to complete at least one of them. All tasks are based on the EmoPain dataset and are described as follows:
 
 - **Movement Behaviour Classification Task**: The aim of this task is to build a binary classification model to continuously detect events of protective behaviour (e.g. hesitation) in participants with chronic lower back pain (CLBP) during exercise performance (e.g. sit-to-stand), based on body movement and muscle activity. We provide training, validation, and test data, which comprise joint angles and energies as well as surface electromyography (sEMG) data from both participants with CLBP and healthy control participants. The data comes with **continuous binary** labels (i.e. one label per timestep). Participants should see below for details about these data, and how to access the data for this task. A README document will be attached to the data to provide more detailed information.  
 
@@ -80,6 +90,21 @@ Papers should be up to 7 pages (6 pages + 1 page for references) and submitted t
 - Notification: 15th of July 2019 
 - Camera Ready due: 19th of July, 2019 
 - Workshop Date: 3rd of September, 2019
+
+## Organisers
+### General Chairs
+Prof Nadia Berthouze, UCL
+Dr. Amanda Williams, UCL
+Dr Michel Valstar, University of Nottingham
+Dr Hongying Meng, Brunel University London
+Dr Min Aung, University of East Anglia
+Dr Nicholas Lane, University of Oxford
+
+### Data Chairs
+Dr Joy Egede, University of Nottingham
+Dr Olugbade Temitayo, UCL
+Chongyang Wang, UCL
+Siyang Song, University of Nottingham
 
 ## Keynote Speakers
 
