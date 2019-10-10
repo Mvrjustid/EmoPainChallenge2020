@@ -88,7 +88,11 @@ The results of the challenge will be presented at the EmoPain 2019 workshop to b
 
 ## Organisers
 **General Chairs** <br>
-Prof Nadia Berthouze, UCL <br>
+<p align="center">
+<img width="400" height="320" src="images/Angle.PNG">
+<img width="160" height="240" src="images/sEMGcapture.PNG"> <br>
+</p>
+Prof Nadia Berthouze, UCL   Dr. Amanda Williams, UCL<br>
 Dr. Amanda Williams, UCL <br>
 Dr Michel Valstar, University of Nottingham <br>
 Dr Hongying Meng, Brunel University London <br>
