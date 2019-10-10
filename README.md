@@ -59,15 +59,19 @@ For comparison of submitted models, Matthews Correlation Coefficient [Matthews 1
 
 ## Participate
 Participants should download, fill, and sign the end-user license agreement ([EULA]()). The EULA form can be found here (put EULA link here). The completed form should be sent to [emopain2020@gmail.com](mailto:emopain2020@gmail.com). Upon satisfactory completion and return of the form, the link to the training and validation sets will be emailed to the participant. 
+
 <br>
 Participating teams will be expected to attempt at least one or more of the challenge tasks and send their trained models (in the form of a working code) and a clear description of any input and output parameters to the organisers before the stipulated deadline. Links to trained models can be shared with the organizers via cloud platforms, e.g., Google Drive, Dropbox or One-drive.
+
 <br>
 Participating teams can submit up to three different models for each task. The organisers will make reasonable attempts to run submitted code within five working days, and the teams can make repeated submissions to fix bugs in their code before the submission deadline. Note that repeated submissions to bug-fix code do not count towards the number of models a participating team can submit.
+
 <br>
 At the end of the competition, the test results for all participants will be published on the Challenge's website. Participants will be ranked based on the performance metrics described above, and the winner(s) will be selected as the best performing submission. Prizes will be presented to the winning teams during the workshop program at the FG2020 conference.
 
 ## Paper Submission
 Each participating team would be required to submit a paper to the workshop, describing their proposed approach for tacking the challenge tasks as well as the results obtained. The organisers reserve the right to re-evaluate the findings, but will not participate in the challenge themselves. Participants are encouraged to compete in the three tasks. Submission should follow the FG 2020 stipulated guidelines for short papers, i.e., 4 pages + 1 page for reference. The review process will be double-blind.  More information on paper submission timelines is provided below. Please submit your paper through this link (coming soon). 
+
 <br>
 The results of the challenge will be presented at the EmoPain 2019 workshop to be held in conjunction with the [Automatic Face and Gesture Recognition 2020 Conference](https://fg2020.org/) in Buenos Aires, Argentina.
 
