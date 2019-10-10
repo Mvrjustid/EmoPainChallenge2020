@@ -91,8 +91,8 @@ The results of the challenge will be presented at the EmoPain 2019 workshop to b
 <p align="left">
 <pre>
 <a href="https://uclic.ucl.ac.uk/people/nadia-berthouze" rel="nadia"><img width="190" height="220" src="images/nadia.png"></a> <a href="https://www.ucl.ac.uk/pals/people/amanda-c-de-c-williams" rel="amanda"><img width="190" height="220" src="images/amanda.png"></a> <a href="http://www.cs.nott.ac.uk/~pszmv/" rel="michell"><img width="190" height="220" src="images/Michell.png"></a> <a href="http://people.brunel.ac.uk/~eesthhm/Hongying%20Meng's%20Opportunites.html" rel="hongying"><img width="190" height="220" src="images/Hongying.png"></a>
-   Prof Nadia Berthouze       Dr. Amanda Williams      Dr. Michel Valstar         Dr. Hongying Meng 
-           UCL                       UCL           University of Nottingham  Brunel University London
+  Prof Nadia Berthouze       Dr. Amanda Williams     Dr. Michel Valstar        Dr. Hongying Meng 
+           UCL                       UCL          University of Nottingham  Brunel University London
 <a href="https://people.uea.ac.uk/min_aung" rel="hane"><img width="190" height="220" src="images/Hane.png"></a> <a href="http://niclane.org/" rel="nic"><img width="190" height="220" src="images/nic.png"></a> 
        Dr. Min Aung            Dr. Nicholas Lane           
  University of East Anglia    University of Oxford              
@@ -104,8 +104,8 @@ The results of the challenge will be presented at the EmoPain 2019 workshop to b
 <p align="left">
 <pre>
 <a href="https://www.nottingham.ac.uk/research/groups/cvl/people/joy.egede" rel="joy"><img width="190" height="220" src="images/joy.png"></a> <a href="https://uclic.ucl.ac.uk/people/temitayo-olugbade" rel="temi"><img width="190" height="220" src="images/temi.png"></a> <a href="https://uclic.ucl.ac.uk/people/chongyang-wang" rel="chongyang"><img width="190" height="220" src="images/chongyang.png"></a> <a href="https://www.nottingham.ac.uk/research/groups/cvl/people/siyang.song" rel="siyang"><img width="190" height="220" src="images/siyang.png"></a>
-      Dr. Joy Egede          Dr. Olugbade Temitayo        Chongyang Wang             Siyang Song 
- University of Nottingham            UCL                       UCL            University of Nottingham
+      Dr. Joy Egede        Dr. Olugbade Temitayo        Chongyang Wang             Siyang Song 
+ University of Nottingham            UCL                      UCL           University of Nottingham
 </pre>
 <br>
 </p>
