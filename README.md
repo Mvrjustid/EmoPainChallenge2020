@@ -51,10 +51,10 @@ The face dataset comprising 36 participants is partitioned randomly into
 - Test Set (3 CLBP participants, 5 healhy participants)
 
 ## Metric
-- Pain estimation from facial expressions <br>
+- **Pain estimation from facial expressions** <br>
 Submissions to the facial expression challenge will be evaluated and compared using Concordance Correlation Coefficient (CCC) as it provides a measure of the temporal association between the model predictions and ground truth pain labels. Mean-Square-Error (MSE), Mean-Absolute-Error (MAE), and Pearson Correlation Coefficient (PCC) will additionally be computed for comparison with previous findings in the literature.
 
-- Pain recognition from Multimodal movement\Multimodal movement behavior classification <br>
+- **Pain recognition from Multimodal movement\Multimodal movement behavior classification** <br>
 For comparison of submitted models, Matthews Correlation Coefficient [Matthews 1975](https://www.sciencedirect.com/science/article/pii/0005279575901099) (MCC), which takes into account the positive class as well as the negative classes, will be used. F1 scores for all classes in the tasks (i.e. F1 score and inverse F1 scores) and accuracy will also be computed for comparison with existing literature.
 
 ## Participate
