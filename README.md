@@ -57,7 +57,7 @@ The face dataset is divided randomly into
 - Test Set (3 CLBP participants, 5 healhy participants)
 
 ## Participate
-To participate in the EmoPain Challenge 2019, please download, fill, and sign the EULA (link coming soon). The form should then be sent to **emopain19@gmail.com**.
+To participate in the EmoPain Challenge 2019, please download, fill, and sign the EULA (link coming soon). The form should then be sent to **emopain2020@gmail.com**.
 <br>
 
 When we receive the form, the link to the training and validation sets will be emailed to the sender. At a later date, the link to the test set will also be forwarded.
@@ -93,18 +93,18 @@ Papers should be up to 7 pages (6 pages + 1 page for references) and submitted t
 
 ## Organisers
 ### General Chairs
-Prof Nadia Berthouze, UCL
-Dr. Amanda Williams, UCL
-Dr Michel Valstar, University of Nottingham
-Dr Hongying Meng, Brunel University London
-Dr Min Aung, University of East Anglia
-Dr Nicholas Lane, University of Oxford
+Prof Nadia Berthouze, UCL <br>
+Dr. Amanda Williams, UCL <br>
+Dr Michel Valstar, University of Nottingham <br>
+Dr Hongying Meng, Brunel University London <br>
+Dr Min Aung, University of East Anglia <br>
+Dr Nicholas Lane, University of Oxford <br>
 
 ### Data Chairs
-Dr Joy Egede, University of Nottingham
-Dr Olugbade Temitayo, UCL
-Chongyang Wang, UCL
-Siyang Song, University of Nottingham
+Dr Joy Egede, University of Nottingham <br>
+Dr Olugbade Temitayo, UCL <br>
+Chongyang Wang, UCL <br>
+Siyang Song, University of Nottingham <br>
 
 ## Keynote Speakers
 
