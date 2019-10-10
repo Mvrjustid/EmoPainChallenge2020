@@ -15,84 +15,75 @@ The organisers will write a baseline paper detailing the Challenge’s objective
 ## Challenge Description
 The EmoPain 2020 Challenge consists of three main tasks focussed on pain recognition from facial expressions and body movements, as well as the recognition of pain-related body movements. Participants are expected to complete at least one of them. All tasks are based on the EmoPain dataset and are described as follows:
 
-- **Movement Behaviour Classification Task**: The aim of this task is to build a binary classification model to continuously detect events of protective behaviour (e.g. hesitation) in participants with chronic lower back pain (CLBP) during exercise performance (e.g. sit-to-stand), based on body movement and muscle activity. We provide training, validation, and test data, which comprise joint angles and energies as well as surface electromyography (sEMG) data from both participants with CLBP and healthy control participants. The data comes with **continuous binary** labels (i.e. one label per timestep). Participants should see below for details about these data, and how to access the data for this task. A README document will be attached to the data to provide more detailed information.  
-
-- **Pain Recognition from Movement Task**: The aim of this task is to build a classification model to differentiate between a participant with CLBP and a healthy control participant as well as differentiate between two levels of self-reported pain for participants with CLBP (in essence, classification of three levels of pain: Healthy, Low-level Pain, High-level Pain), based on body movement and muscle activity during exercise performance. We provide training, validation, and test data, which comprise joint angles and energies as well as sEMG data from both participants with CLBP and healthy control participants. The data comes with three class labels per instance. Participants should see below for details about these data, and how to access the data for this task. A README document will be attached to the data to provide more detailed information.
-
-- **Pain Face Prediction Task**: The aim of this task is to build a classification/prediction model to differentiate between a participant with CLBP and a healthy control participant as well as continuously recognise the levels of observer-rated pain of participants with CLBP, based on facial expression during exercise performance. We provide training, validation, and test data, which comprise features extracted from face video data from both participants with CLBP and healthy control participants. Participants should see below for details about these data, and how to access the data for this task. A README document will be attached to the data to provide more detailed information.
-
-
-
-## Dataset
-
-- **Joint Angles** and **Joint Energies** (calculated from the joint angles). See diagram below, taken from [Wang et al. 2019b](https://arxiv.org/abs/1904.10824):
+- **Task 1 - Pain Intensity Estimation from Facial Expressions** <br>
+This task aims to develop methods that can recognise different levels of observer-rated pain in participants with chronic low back pain based on their facial expression changes during exercise performance. Participants would be expected to train regression/classification models to predict pain intensity from facial expressions on a continuous 11-point scale in which healthy participants have a score of 0 while participants with chronic pain have scores between 1 and 10 inclusive. A zero pain score is assumed for the healthy control group thus, participants may find it valuable to devise techniques that take into account the uncertainties which could arise from this assumption.<br>
+We provide training, validation, and test data, which comprise of features extracted from face videos of CLBP and healthy control participants. Facial features include facial landmarks, head pose, Histogram of Oriented Gradient (HOG) features, action unit occurrence and intensity values extracted from [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace), and deep-learned feature representations. Table 1 below shows the detailed description and the dimensions of the facial expression data. A README document will be attached to the data to provide more information.
 
 <p align="center">
-<img width="300" height="240" src="images/Angle.PNG">
+<img width="520" height="390" src="images/facefeature2.png"> <br>
+Table 1. Facial expression features description
 </p>
 
-- **sEMG data**. The data given is the upper envelope of the rectified sEMG sensor data. See diagram on left below for the placement of the sensors, taken from [Aung et al. 2016](https://ieeexplore.ieee.org/abstract/document/7173007)
+- **Task 2 - Movement Behaviour Classification** <br>
+Participants of this task will be required to build a model for binary classification of protective behaviour at each movement frame in the exercise performance of a participant with chronic pain based on the bodily joint features and muscle activity data. <br>
+We provide training, validation, and test data, which comprise joint angles and energies as well as surface electromyography (sEMG) data from both participants with CLBP and healthy control participants. See Figure 1 for a description of the joint angles and Figure 2 for the sEMG capturing. The data comes with **continuous binary** labels (i.e. one label per timestep). The protective behaviour labels will serve as ground truth for this task.
 
 <p align="center">
-<img width="160" height="240" src="images/sEMGcapture.PNG">
+<img width="400" height="320" src="images/Angle.PNG"> <br>
+Figure 1. Joint angle illustration <br>
+<img width="160" height="240" src="images/sEMGcapture.PNG"> <br>
+Figure 2. sEMG data from 4 sensors on the back
 </p>
 
-
-- **Facial geometric feature plus deep feature** This includes facial landmarks, head pose, HOG, action unit occurrence and intensity values extracted from [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace), and deep-learned feature representations.Figure below shows the detailed description and the dimensions of the facial expression data.
-
-
-<p align="center">
-<img width="400" height="308" src="images/facefeature2.png">
-</p>
+- **Task 3 - Pain Recognition from Movement Task** <br> 
+Participants of this task will be required to build a classification model that determines based on the bodily joint features and muscle activity data if a participant has chronic pain or is a healthy control participant and further differentiate between two levels of pain (i.e. low-level pain and high-level pain) if with chronic pain. <br>
+We provide training, validation, and test data, which comprise joint angles and energies as well as sEMG data from both participants with CLBP and healthy control participants. Figure 1 shows a description of the joint angles. The sEMG data provided was obtained from the upper envelope of the rectified sEMG sensor as shown in Figure 2. The data also comes with three class labels per instance. The pain labels will serve as ground truth for this task. A README document will be attached to the data to provide more detailed information.
 
 ## Dataset Partition
-The movement dataset is divided randomly into 
+The movement challenge dataset comprising 31 participants is partitioned randomly into 
 - Training Set (10 CLBP participants, 6 healthy participants)
 - Validation Set (4 CLBP participants, 3 healhy participants)
 - Test Set (3 CLBP participants, 5 healhy participants)
 
-The face dataset is divided randomly into 
+The face dataset comprising 36 participants is partitioned randomly into 
 - Training Set (8 CLBP participants, 11 healthy participants)
 - Validation Set (3 CLBP participants, 6 healhy participants)
 - Test Set (3 CLBP participants, 5 healhy participants)
 
-## Participate
-To participate in the EmoPain Challenge 2019, please download, fill, and sign the EULA (link coming soon). The form should then be sent to [emopain2020@gmail.com](mailto:emopain2020@gmail.com).
-<br>
-
-When we receive the form, the link to the training and validation sets will be emailed to the sender. At a later date, the link to the test set will also be forwarded.
-<br>
-The test set results should be sent by each participating team to the email address above. Each team can submit up to 5 different results. 
-<br>
-The test results performance ranking will be based on the metric described below. The ranking over all will be displayed on this website, before the workshop day.
-
 ## Metric
-- For the Movement Behaviour Classification and the Pain Recognition from Movement tasks, we will use the mean F1 score as the performance metric:
+- Pain estimation from facial expressions <br>
+Submissions to the facial expression challenge will be evaluated and compared using Concordance Correlation Coefficient (CCC) as it provides a measure of the temporal association between the model predictions and ground truth pain labels. Mean-Square-Error (MSE), Mean-Absolute-Error (MAE), and Pearson Correlation Coefficient (PCC) will additionally be computed for comparison with previous findings in the literature.
 
-<p align="center">
-<img width="272" height="64" src="images/meanf1.PNG">
-</p>
+- Pain recognition from Multimodal movement\Multimodal movement behavior classification <br>
+For comparison of submitted models, Matthews Correlation Coefficient [Matthews 1975](https://www.sciencedirect.com/science/article/pii/0005279575901099) (MCC), which takes into account the positive class as well as the negative classes, will be used. F1 scores for all classes in the tasks (i.e. F1 score and inverse F1 scores) and accuracy will also be computed for comparison with existing literature.
 
-where _pre_ and _recall_ are the precision and recall ratios respectively of class _c_.
-
-- For the task on face, Mean Sqaure Error (MSE), Mean Absolute Error (MAE), Pearson Coreelation Coefficient (PCC) and Concordance Correlation Coefficient (CCC) will be used.
+## Participate
+Participants should download, fill, and sign the end-user license agreement ([EULA]()). The EULA form can be found here (put EULA link here). The completed form should be sent to [emopain2020@gmail.com](mailto:emopain2020@gmail.com). Upon satisfactory completion and return of the form, the link to the training and validation sets will be emailed to the participant. 
+<br>
+Participating teams will be expected to attempt at least one or more of the challenge tasks and send their trained models (in the form of a working code) and a clear description of any input and output parameters to the organisers before the stipulated deadline. Links to trained models can be shared with the organizers via cloud platforms, e.g., Google Drive, Dropbox or One-drive.
+<br>
+Participating teams can submit up to three different models for each task. The organisers will make reasonable attempts to run submitted code within five working days, and the teams can make repeated submissions to fix bugs in their code before the submission deadline. Note that repeated submissions to bug-fix code do not count towards the number of models a participating team can submit.
+<br>
+At the end of the competition, the test results for all participants will be published on the Challenge's website. Participants will be ranked based on the performance metrics described above, and the winner(s) will be selected as the best performing submission. Prizes will be presented to the winning teams during the workshop program at the FG2020 conference.
 
 ## Paper Submission
-Papers should be up to 7 pages (6 pages + 1 page for references) and submitted through EasyChair (link coming soon). Please see below for dates. The reviewing process will be double-blind.
+Each participating team would be required to submit a paper to the workshop, describing their proposed approach for tacking the challenge tasks as well as the results obtained. The organisers reserve the right to re-evaluate the findings, but will not participate in the challenge themselves. Participants are encouraged to compete in the three tasks. Submission should follow the FG 2020 stipulated guidelines for short papers, i.e., 4 pages + 1 page for reference. The review process will be double-blind.  More information on paper submission timelines is provided below. Please submit your paper through this link (coming soon). 
 <br>
+The results of the challenge will be presented at the EmoPain 2019 workshop to be held in conjunction with the [Automatic Face and Gesture Recognition 2020 Conference](https://fg2020.org/) in Buenos Aires, Argentina.
 
 ## Important Dates (Postponed, more information coming soon)
 
-- Training and Validation Data Available: 28th of June, 2019
-- Testing Data Available: 3th of July, 2019 
-- Results Uploading Deadline: 7th of July, 2019
-- Paper Submission Deadline: 10th of July 2019
-- Notification: 15th of July 2019 
-- Camera Ready due: 19th of July, 2019 
-- Workshop Date: 3rd of September, 2019
+- 01 Oct 2019: Call for participation announced, data available (data, READMEs, and website draft are already ready for dissemination)
+- 24 Jan 2020: Final submission of challenge systems for evaluation
+- 31 Jan 2020: Paper submission deadline
+- 03 Feb 2020: Papers assigned to reviewers
+- 18 Feb 2020: Review deadline
+- 21 Feb 2020: Decisions sent to authors
+- 28 Feb 2020: Camera ready version to Challenge Organisers via EasyChair
+- 06 Mar 2020: Camera ready versions to FG Publication Chairs
 
 ## Organisers
-**General Chairs**
+**General Chairs** <br>
 Prof Nadia Berthouze, UCL <br>
 Dr. Amanda Williams, UCL <br>
 Dr Michel Valstar, University of Nottingham <br>
@@ -100,20 +91,14 @@ Dr Hongying Meng, Brunel University London <br>
 Dr Min Aung, University of East Anglia <br>
 Dr Nicholas Lane, University of Oxford <br>
 
-**Data Chairs**
+**Data Chairs** <br>
 Dr Joy Egede, University of Nottingham <br>
 Dr Olugbade Temitayo, UCL <br>
 Chongyang Wang, UCL <br>
 Siyang Song, University of Nottingham <br>
 
 ## Keynote Speakers
+Stay tuned.
 
-#### [Professor Rebecca Slater, Oxford University, UK (tentative)](https://www.paediatrics.ox.ac.uk/team/rebeccah-slater)
-#### [Professor Chris Eccleston, University of Bath, UK (tentative)](https://researchportal.bath.ac.uk/en/persons/chris-eccleston)
-
-We also aim to have a multidisciplinary panel (in line with the inclusion theme of ACII 2019) on the requirements and challenges from 
-real world applications for the above-discussed technology.
-<br>
-We hope that the discussion will trigger interest that leads to new approaches for developing automatic recognition systems. 
-<br>
-The panel will be led by a member of the organizing committee (Dr Amanda Williams, clinical psychologist and academic expert in pain) and include 2 keynote speakers (see above), a senior physiotherapist (Mr Diarmuid Denneny, Pain Management Centre, UCLH NHS Foundation Trust, UK) and an HCI researcher (Dr Aneesha Singh, UCL, with long-term research experience with pain patients).
+## Programme
+Stay tuned.
