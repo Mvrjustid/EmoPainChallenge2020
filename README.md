@@ -91,8 +91,8 @@ The results of the challenge will be presented at the EmoPain 2019 workshop to b
 <p align="left">
 <pre>
 <a href="https://uclic.ucl.ac.uk/people/nadia-berthouze" rel="nadia"><img width="190" height="220" src="images/nadia.png"></a> <a href="https://www.ucl.ac.uk/pals/people/amanda-c-de-c-williams" rel="amanda"><img width="190" height="220" src="images/amanda.png"></a> <a href="http://www.cs.nott.ac.uk/~pszmv/" rel="michell"><img width="190" height="220" src="images/Michell.png"></a> <a href="http://people.brunel.ac.uk/~eesthhm/Hongying%20Meng's%20Opportunites.html" rel="hongying"><img width="190" height="220" src="images/Hongying.png"></a>
-   Prof Nadia Berthouze       Dr. Amanda Williams       Dr. Michel Valstar          Dr. Hongying Meng 
-           UCL                       UCL            University of Nottingham  Brunel University London
+   Prof Nadia Berthouze       Dr. Amanda Williams      Dr. Michel Valstar         Dr. Hongying Meng 
+           UCL                       UCL           University of Nottingham  Brunel University London
 <a href="https://people.uea.ac.uk/min_aung" rel="hane"><img width="190" height="220" src="images/Hane.png"></a> <a href="http://niclane.org/" rel="nic"><img width="190" height="220" src="images/nic.png"></a> 
        Dr. Min Aung            Dr. Nicholas Lane           
  University of East Anglia    University of Oxford              
