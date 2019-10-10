@@ -104,15 +104,11 @@ The results of the challenge will be presented at the EmoPain 2019 workshop to b
 <p align="left">
 <pre>
 <a href="https://www.nottingham.ac.uk/research/groups/cvl/people/joy.egede" rel="joy"><img width="198" height="220" src="images/joy.png"></a> <a href="https://uclic.ucl.ac.uk/people/temitayo-olugbade" rel="temi"><img width="198" height="220" src="images/temi.png"></a> <a href="https://uclic.ucl.ac.uk/people/chongyang-wang" rel="chongyang"><img width="198" height="220" src="images/chongyang.png"></a> <a href="https://www.nottingham.ac.uk/research/groups/cvl/people/siyang.song" rel="siyang"><img width="198" height="220" src="images/siyang.png"></a>
-         Dr. Joy Egede          Dr. Olugbade Temitayo         Chongyang Wang                 Siyang Song 
+       Dr. Joy Egede           Dr. Olugbade Temitayo         Chongyang Wang                Siyang Song 
    University of Nottingham             UCL                         UCL              University of Nottingham
 </pre>
 <br>
 </p>
-Dr Joy Egede, University of Nottingham <br>
-Dr Olugbade Temitayo, UCL <br>
-Chongyang Wang, UCL <br>
-Siyang Song, University of Nottingham <br>
 
 ## Keynote Speakers
 Stay tuned.
