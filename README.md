@@ -26,7 +26,7 @@ Table 1. Facial expression features description
 
 - **Task 2 - Movement Behaviour Classification** <br>
 Participants of this task will be required to build a model for binary classification of protective behaviour at each movement frame in the exercise performance of a participant with chronic pain based on the bodily joint features and muscle activity data. <br>
-We provide training, validation, and test data, which comprise joint angles and energies as well as surface electromyography (sEMG) data from both participants with CLBP and healthy control participants. See Figure 1 for a description of the joint angles and Figure 2 for the sEMG capturing. The data comes with **continuous binary** labels (i.e. one label per timestep). The protective behaviour labels will serve as ground truth for this task.
+We provide training, validation, and test data, which comprise joint angles and energies as well as surface electromyography (sEMG) data from both participants with CLBP and healthy control participants. See Figure 1 for a description of the joint angles (picture took from [Wang et al 2019](https://arxiv.org/abs/1904.10824)) and Figure 2 for the sEMG capturing. The data comes with **continuous binary** labels (i.e. one label per timestep). The protective behaviour labels will serve as ground truth for this task.
 
 <p align="center">
 <img width="400" height="320" src="images/Angle.PNG"> <br>
