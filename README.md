@@ -90,7 +90,7 @@ The results of the challenge will be presented at the EmoPain 2019 workshop to b
 **General Chairs** <br>
 <p align="left">
 <pre>
-<a href="https://uclic.ucl.ac.uk/people/nadia-berthouze" rel="nadia"><img width="198" height="220" src="images/nadia.png"></a> <img width="198" height="220" src="images/amanda.png"> <img width="198" height="220" src="images/Michell.png"> <img width="198" height="220" src="images/Hongying.png">
+<a href="https://uclic.ucl.ac.uk/people/nadia-berthouze" rel="nadia"><img width="198" height="220" src="images/nadia.png"></a> <a href="https://www.ucl.ac.uk/pals/people/amanda-c-de-c-williams" rel="amanda"><img width="198" height="220" src="images/amanda.png"></a> <a href="http://www.cs.nott.ac.uk/~pszmv/" rel="michell"><img width="198" height="220" src="images/Michell.png"></a> <a href="http://people.brunel.ac.uk/~eesthhm/Hongying%20Meng's%20Opportunites.html" rel="hongying"><img width="198" height="220" src="images/Hongying.png"></a>
      Prof Nadia Berthouze       Dr. Amanda Williams          Dr Michel Valstar           Dr Hongying Meng 
             UCL                        UCL                University of Nottingham   Brunel University London
 <img width="198" height="220" src="images/Hane.png"> <img width="198" height="220" src="images/nic.png"> 
