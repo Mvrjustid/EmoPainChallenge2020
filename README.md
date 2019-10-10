@@ -94,8 +94,8 @@ The results of the challenge will be presented at the EmoPain 2019 workshop to b
   Prof Nadia Berthouze      Dr. Amanda Williams      Dr. Michel Valstar        Dr. Hongying Meng 
            UCL                       UCL          University of Nottingham  Brunel University London
 <a href="https://people.uea.ac.uk/min_aung" rel="hane"><img width="190" height="220" src="images/Hane.png"></a> <a href="http://niclane.org/" rel="nic"><img width="190" height="220" src="images/nic.png"></a> 
-       Dr. Min Aung            Dr. Nicholas Lane           
- University of East Anglia    University of Oxford              
+      Dr. Min Aung           Dr. Nicholas Lane           
+University of East Anglia   University of Oxford              
 </pre>
 <br>
 </p>
