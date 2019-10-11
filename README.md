@@ -40,15 +40,16 @@ Participants of this task will be required to build a classification model that 
 We provide training, validation, and test data, which comprise joint angles and energies as well as sEMG data from both participants with CLBP and healthy control participants. Figure 1 shows a description of the joint angles. The sEMG data provided was obtained from the upper envelope of the rectified sEMG sensor as shown in Figure 2. The data also comes with three class labels per instance. The pain labels will serve as ground truth for this task. A README document will be attached to the data to provide more detailed information.
 
 ## Dataset Partition
+The face dataset comprising 36 participants is partitioned randomly into 
+- Training Set (8 CLBP participants, 11 healthy participants)
+- Validation Set (3 CLBP participants, 6 healhy participants)
+- Test Set (3 CLBP participants, 5 healhy participants)
+
 The movement challenge dataset comprising 31 participants is partitioned randomly into 
 - Training Set (10 CLBP participants, 6 healthy participants)
 - Validation Set (4 CLBP participants, 3 healhy participants)
 - Test Set (3 CLBP participants, 5 healhy participants)
 
-The face dataset comprising 36 participants is partitioned randomly into 
-- Training Set (8 CLBP participants, 11 healthy participants)
-- Validation Set (3 CLBP participants, 6 healhy participants)
-- Test Set (3 CLBP participants, 5 healhy participants)
 
 ## Metric
 - **Pain estimation from facial expressions** <br>
