@@ -24,9 +24,9 @@ We provide training, validation, and test data, which comprise of features extra
 Table 1. Facial expression features description
 </p>
 
-- **Task 2 - Movement Behaviour Classification** <br>
-Participants of this task will be required to build a model for binary classification of protective behaviour at each movement frame in the exercise performance of a participant with chronic pain based on the bodily joint features and muscle activity data. <br>
-We provide training, validation, and test data, which comprise joint angles and energies as well as surface electromyography (sEMG) data from both participants with CLBP and healthy control participants. See Figure 1 for a description of the joint angles (picture took from [Wang et al 2019](https://arxiv.org/abs/1904.10824)) and Figure 2 for the sEMG capturing. The data comes with **continuous binary** labels (i.e. one label per timestep). The protective behaviour labels will serve as ground truth for this task.
+- **Task 2 - Pain Recognition from Movement Task** <br> 
+Participants of this task will be required to build a classification model that determines based on the bodily joint features and muscle activity data if a participant has chronic pain or is a healthy control participant and further differentiate between two levels of pain (i.e. low-level pain and high-level pain) if with chronic pain. <br>
+We provide training, validation, and test data, which comprise joint angles and energies as well as sEMG data from both participants with CLBP and healthy control participants. Figure 1 shows a description of the joint angles. The sEMG data provided was obtained from the upper envelope of the rectified sEMG sensor as shown in Figure 2. The data also comes with three class labels per instance. The pain labels will serve as ground truth for this task. A README document will be attached to the data to provide more detailed information.
 
 <p align="center">
 <img width="520" height="300" src="images/angledescriptiontable.png">
@@ -37,9 +37,9 @@ Figure 1. Joint angle illustration <br>
 Figure 2. sEMG data from 4 sensors on the back
 </p>
 
-- **Task 3 - Pain Recognition from Movement Task** <br> 
-Participants of this task will be required to build a classification model that determines based on the bodily joint features and muscle activity data if a participant has chronic pain or is a healthy control participant and further differentiate between two levels of pain (i.e. low-level pain and high-level pain) if with chronic pain. <br>
-We provide training, validation, and test data, which comprise joint angles and energies as well as sEMG data from both participants with CLBP and healthy control participants. Figure 1 shows a description of the joint angles. The sEMG data provided was obtained from the upper envelope of the rectified sEMG sensor as shown in Figure 2. The data also comes with three class labels per instance. The pain labels will serve as ground truth for this task. A README document will be attached to the data to provide more detailed information.
+- **Task 3 - Movement Behaviour Classification** <br>
+Participants of this task will be required to build a model for binary classification of protective behaviour at each movement frame in the exercise performance of a participant with chronic pain based on the bodily joint features and muscle activity data. <br>
+We provide training, validation, and test data, which comprise joint angles and energies as well as surface electromyography (sEMG) data from both participants with CLBP and healthy control participants. See Figure 1 for a description of the joint angles (picture took from [Wang et al 2019](https://arxiv.org/abs/1904.10824)) and Figure 2 for the sEMG capturing. The data comes with **continuous binary** labels (i.e. one label per timestep). The protective behaviour labels will serve as ground truth for this task.
 
 ## Dataset Partition
 The face dataset comprising 36 participants is partitioned randomly into 
