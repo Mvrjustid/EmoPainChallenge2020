@@ -51,7 +51,7 @@ The movement challenge dataset comprising 31 participants is partitioned randoml
 - Test Set (3 CLBP participants, 5 healhy participants)
 
 
-## Metric
+## Performance Metrics
 - **Pain estimation from facial expressions** <br>
 Submissions to the facial expression challenge will be evaluated and compared using Concordance Correlation Coefficient (CCC) as it provides a measure of the temporal association between the model predictions and ground truth pain labels. Mean-Square-Error (MSE), Mean-Absolute-Error (MAE), and Pearson Correlation Coefficient (PCC) will additionally be computed for comparison with previous findings in the literature.
 
@@ -71,7 +71,7 @@ Participating teams can submit up to three different models for each task. The o
 At the end of the competition, the test results for all participants will be published on the Challenge's website. Participants will be ranked based on the performance metrics described above, and the winner(s) will be selected as the best performing submission. Prizes will be presented to the winning teams during the workshop program at the FG2020 conference.
 
 ## Paper Submission
-Each participating team would be required to submit a paper to the workshop, describing their proposed approach for tacking the challenge tasks as well as the results obtained. The organisers reserve the right to re-evaluate the findings, but will not participate in the challenge themselves. Participants are encouraged to compete in the three tasks. Submission should follow the FG 2020 stipulated guidelines for short papers, i.e., 4 pages + 1 page for reference. The review process will be double-blind.  More information on paper submission timelines is provided below. Please submit your paper through this link (coming soon). 
+Each participating team would be required to submit a paper to the workshop, describing their proposed approach for tackling the challenge tasks as well as the results obtained. The organisers reserve the right to re-evaluate the findings, but will not participate in the challenge themselves. Participants are encouraged to compete in the three tasks. Submission should follow the FG 2020 stipulated guidelines for short papers, i.e., 4 pages + 1 page for reference. The review process will be double-blind.  More information on paper submission timelines is provided below. Please submit your paper through this link (coming soon). 
 <br>
 
 The results of the challenge will be presented at the EmoPain 2019 workshop to be held in conjunction with the [Automatic Face and Gesture Recognition 2020](https://fg2020.org/) conference in Buenos Aires, Argentina.
