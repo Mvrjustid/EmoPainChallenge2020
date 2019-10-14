@@ -29,7 +29,7 @@ Participants of this task will be required to build a model for binary classific
 We provide training, validation, and test data, which comprise joint angles and energies as well as surface electromyography (sEMG) data from both participants with CLBP and healthy control participants. See Figure 1 for a description of the joint angles (picture took from [Wang et al 2019](https://arxiv.org/abs/1904.10824)) and Figure 2 for the sEMG capturing. The data comes with **continuous binary** labels (i.e. one label per timestep). The protective behaviour labels will serve as ground truth for this task.
 
 <p align="center">
-<img width="450" height="340" src="images/angledescriptiontable.png">
+<img width="520" height="340" src="images/angledescriptiontable.png">
 <img width="217" height="329" src="images/humanskeleton.png">
 <br>
 Figure 1. Joint angle illustration <br>
