@@ -75,8 +75,8 @@ At the end of the competition, the test results for all participants will be pub
 ## Paper Submission
 Each participating team would be required to submit a paper to the workshop, describing their proposed approach for tackling the challenge tasks as well as the results obtained. The organisers reserve the right to re-evaluate the findings, but will not participate in the challenge themselves. Participants are encouraged to compete in the three tasks. Submission should follow the FG 2020 stipulated guidelines for short papers, i.e., 4 pages + 1 page for reference. The review process will be double-blind.  More information on paper submission timelines is provided below. Please submit your paper through this link (coming soon). 
 <br>
-In addition to the paper describing the dataset (Aung et al., 2016) mentioned in the EULA, we will produce a paper describing the features extraction methods used in the three tasks (as described above) and the baselines for this challenge. This paper will be ciruculated later to the challenge participants. This paper should be cited in the challenge camera ready paper. 
-
+In addition to the paper describing the dataset ([Aung et al 2016](https://ieeexplore.ieee.org/abstract/document/7173007)) mentioned in the EULA, we will produce a paper describing the features extraction methods used in the three tasks (as described above) and the baselines for this challenge. This paper will be ciruculated later to the challenge participants. This paper should be cited in the challenge camera ready paper. 
+<br>
 The results of the challenge will be presented at the EmoPain 2019 workshop to be held in conjunction with the [Automatic Face and Gesture Recognition 2020](https://fg2020.org/) conference in Buenos Aires, Argentina.
 
 ## Important Dates
