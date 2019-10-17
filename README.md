@@ -16,7 +16,8 @@ The organisers will write a baseline paper detailing the Challenge’s objective
 The EmoPain 2020 Challenge consists of three main tasks focussed on pain recognition from facial expressions and body movements, as well as the recognition of pain-related body movements. Participants are expected to complete at least one of them. All tasks are based on the EmoPain dataset and are described as follows:
 
 - **Task 1 - Pain Intensity Estimation from Facial Expressions** <br>
-This task aims to develop methods that can recognise different levels of observer-rated pain in participants with chronic low back pain based on their facial expression changes during exercise performance. Participants would be expected to train regression/classification models to predict pain intensity from facial expressions on a continuous 11-point scale in which healthy participants have a score of 0 while participants with chronic pain have scores between 1 and 10 inclusive. A zero pain score is assumed for the healthy control group thus, participants may find it valuable to devise techniques that take into account the uncertainties which could arise from this assumption.<br>
+This task aims to develop methods that can recognise different levels of observer-rated pain in participants with chronic low back pain based on their facial expression changes during exercise performance. Participants would be expected to train regression/classification models to predict pain intensity from facial expressions on a continuous 11-point scale in which healthy participants have a score of 0 while participants with chronic pain have scores between 1 and 10 inclusive. A zero pain score is assumed for the healthy control group thus, participants may find it valuable to devise techniques that take into account the uncertainties which could arise from this assumption.
+<br>
 We provide training, validation, and test data, which comprise of features extracted from face videos of CLBP and healthy control participants. Facial features include facial landmarks, head pose, Histogram of Oriented Gradient (HOG) features, action unit occurrence and intensity values extracted from [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace), and deep-learned feature representations. Table 1 below shows the detailed description and the dimensions of the facial expression data. A README document will be attached to the data to provide more information.
 
 <p align="center">
@@ -25,7 +26,8 @@ Table 1. Facial expression features description
 </p>
 
 - **Task 2 - Pain Recognition from Movement Task** <br> 
-Participants of this task will be required to build a classification model that determines based on the bodily joint features and muscle activity data if a participant has chronic pain or is a healthy control participant and further differentiate between two levels of pain (i.e. low-level pain and high-level pain) if with chronic pain. <br>
+Participants of this task will be required to build a classification model that determines based on the bodily joint features and muscle activity data if a participant has chronic pain or is a healthy control participant and further differentiate between two levels of pain (i.e. low-level pain and high-level pain) if with chronic pain. 
+<br>
 We provide training, validation, and test data, which comprise joint angles and energies as well as sEMG data from both participants with CLBP and healthy control participants. Figure 1 shows a description of the joint angles. The sEMG data provided was obtained from the upper envelope of the rectified sEMG sensor as shown in Figure 2. The data also comes with three class labels per instance. The pain labels will serve as ground truth for this task. A README document will be attached to the data to provide more detailed information.
 
 <p align="center">
@@ -38,7 +40,8 @@ Figure 2. sEMG data from 4 sensors on the back
 </p>
 
 - **Task 3 - Movement Behaviour Classification** <br>
-Participants of this task will be required to build a model for binary classification of protective behaviour at each movement frame in the exercise performance of a participant with chronic pain based on the bodily joint features and muscle activity data. <br>
+Participants of this task will be required to build a model for binary classification of protective behaviour at each movement frame in the exercise performance of a participant with chronic pain based on the bodily joint features and muscle activity data. 
+<br>
 We provide training, validation, and test data, which comprise joint angles and energies as well as surface electromyography (sEMG) data from both participants with CLBP and healthy control participants. See Figure 1 for a description of the joint angles (picture took from [Wang et al 2019](https://arxiv.org/abs/1904.10824)) and Figure 2 for the sEMG capturing. The data comes with **continuous binary** labels (i.e. one label per timestep). The protective behaviour labels will serve as ground truth for this task.
 
 ## Dataset Partition
