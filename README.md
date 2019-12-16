@@ -91,7 +91,7 @@ Table 2. Baseline results for pain intensity estimation from facial expressions
 </p>
 
 - **Task 2 - Pain Recognition from Movement** <br> 
-See the table below. In this task, the hold-out validation is used for the test set while Leave-One-Subject-Out validation (LOSO) is used for the validation set. This is due to the fact that the number of instances is too small in the training set.
+See the table below. In this task, we performed Leave-One-Subject-Out cross-validation (LOSO) based on the training set as well as hold-out validation based on the training, validation, and test sets respectively.
 <p align="center">
 <img width="520" height="280" src="images/BaselineTask2-1.png"> <br>
 Table 3. Baseline results for pain intensity estimation from movements
