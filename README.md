@@ -79,7 +79,30 @@ Each participating team would be required to submit a paper to the workshop, des
 In addition to the paper describing the dataset ([Aung et al 2016](https://ieeexplore.ieee.org/abstract/document/7173007)) mentioned in the EULA, we will produce a paper describing the features extraction methods used in the three tasks (as described above) and the baselines for this challenge. This paper will be ciruculated later to the challenge participants. This paper should be cited in the challenge camera ready paper.
 <br>
 
-The results of the challenge will be presented at the EmoPain 2019 workshop to be held in conjunction with the [Automatic Face and Gesture Recognition 2020](https://fg2020.org/) conference in Buenos Aires, Argentina.
+The results of the challenge will be presented at the EmoPain 2020 workshop to be held in conjunction with the [Automatic Face and Gesture Recognition 2020](https://fg2020.org/) conference in Buenos Aires, Argentina.
+
+## Baseline Results
+Here we provide the results we have using some baseline systems. 
+- **Task 1 - Pain Intensity Estimation from Facial Expressions** <br> 
+See the table below. In this task, the hold-out validation is used.
+<p align="center">
+<img width="650" height="310" src="images/BaselineTask1.png"> <br>
+Table 2. Baseline results for pain intensity estimation from facial expressions
+</p>
+
+- **Task 2 - Pain Recognition from Movement** <br> 
+See the table below. In this task, the hold-out validation is used for the test set while Leave-One-Subject-Out validation (LOSO) is used for the validation set. This is due to the fact that the number of instances is too small in the training set.
+<p align="center">
+<img width="650" height="350" src="images/BaselineTask2.png"> <br>
+Table 3. Baseline results for pain intensity estimation from movements
+</p>
+
+- **Task 3 - Movement Behaviour Classification** <br> 
+See the table below. In this task, the hold-out validation is used.
+<p align="center">
+<img width="580" height="200" src="images/BaselineTask3.png"> <br>
+Table 4. Baseline results for movement behaviour classification
+</p>
 
 ## Important Dates
 
