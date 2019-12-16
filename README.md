@@ -93,7 +93,7 @@ Table 2. Baseline results for pain intensity estimation from facial expressions
 - **Task 2 - Pain Recognition from Movement** <br> 
 See the table below. In this task, we performed leave-one-subject-out cross-validation (LOSOCV) based on the training set as well as hold-out validation based on the training, validation, and test sets respectively.
 <p align="center">
-<img width="520" height="280" src="images/BaselineTask2-1.png"> <br>
+<img width="520" height="280" src="images/BaselineTask2-2.png"> <br>
 Table 3. Baseline results for pain intensity estimation from movements
 </p>
 
