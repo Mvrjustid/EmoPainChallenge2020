@@ -86,14 +86,14 @@ Here we provide the results we have using some baseline systems.
 - **Task 1 - Pain Intensity Estimation from Facial Expressions** <br> 
 See the table below. In this task, the hold-out validation is used.
 <p align="center">
-<img width="520" height="248" src="images/BaselineTask1.png"> <br>
+<img width="520" height="248" src="images/BaselineTask1-1.png"> <br>
 Table 2. Baseline results for pain intensity estimation from facial expressions
 </p>
 
 - **Task 2 - Pain Recognition from Movement** <br> 
 See the table below. In this task, the hold-out validation is used for the test set while Leave-One-Subject-Out validation (LOSO) is used for the validation set. This is due to the fact that the number of instances is too small in the training set.
 <p align="center">
-<img width="520" height="280" src="images/BaselineTask2.png"> <br>
+<img width="520" height="280" src="images/BaselineTask2-1.png"> <br>
 Table 3. Baseline results for pain intensity estimation from movements
 </p>
 
