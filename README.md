@@ -47,10 +47,10 @@ The face dataset comprising 36 participants is partitioned randomly into
 - Validation Set (3 CLBP participants, 6 healhy participants)
 - Test Set (3 CLBP participants, 5 healhy participants)
 
-The movement challenge dataset comprising 31 participants is partitioned randomly into 
+The movement challenge dataset comprising 30 participants is partitioned randomly into 
 - Training Set (10 CLBP participants, 6 healthy participants)
 - Validation Set (4 CLBP participants, 3 healhy participants)
-- Test Set (3 CLBP participants, 5 healhy participants)
+- Test Set (4 CLBP participants, 3 healhy participants)
 
 
 ## Performance Metrics
