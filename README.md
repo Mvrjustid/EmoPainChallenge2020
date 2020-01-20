@@ -64,7 +64,7 @@ For comparison of submitted models, Matthews Correlation Coefficient [Matthews 1
 The mean F1 score and seperate F1 scores for each class (protective class and non-protective class).
 
 ## Participate
-Participants should download, fill, and sign the end-user license agreement ([EULA](https://github.com/Mvrjustid/EmoPainChallenge2020/tree/master/Docs)). The completed form should be sent to the [committee](mailto:emopain2020@gmail.com). Upon satisfactory completion and return of the form, the link to the training and validation sets will be emailed to the participant. 
+The application for the dataset has finished for this year.
 <br>
 
 Participating teams will be expected to attempt at least one or more of the challenge tasks and send their trained models (in the form of a working code) and a clear description of any input and output parameters to the [committee](mailto:emopain2020@gmail.com) before the stipulated deadline. Links to trained models can be shared with the organizers via cloud platforms, e.g., Google Drive, Dropbox or One-drive.
