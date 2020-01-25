@@ -111,8 +111,8 @@ Table 4. Baseline results for movement behaviour classification
 
 - 01 Oct 2019: Call for participation announced, data available (data, READMEs, and website draft are already ready for dissemination)
 - 19 Jan 2020: Final submission of challenge systems for evaluation
-- 24 Jan 2020: Paper submission deadline
-- 27 Jan 2020: Papers assigned to reviewers
+- 29 Jan 2020: Paper submission deadline (extended)
+- 31 Jan 2020: Papers assigned to reviewers
 - 11 Feb 2020: Review deadline
 - 14 Feb 2020: Decisions sent to authors
 - 21 Feb 2020: Camera ready version to Challenge Organisers via EasyChair
