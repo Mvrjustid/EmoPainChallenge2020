@@ -146,4 +146,46 @@ University of East Anglia   University of Oxford
 Stay tuned.
 
 ## Programme
-Stay tuned.
+Date: 20 Nov, 2020 (London Time)
+
+12:00 Opening of the EmoPain Challenge
+
+12:12 "LSTM-DNN based Approach for Pain Intensity and Protective Behaviour Prediction"
+           Yi Li, Shreya Ghosh, Jyoti Joshi Dhall and Sharon Oviatt
+           Monash University
+           
+12:24 "ALANet:Autoencoder-LSTM for pain and protective behaviour detection"
+           Xinhui Yuan and Marwa Mahmoud
+           Changchun University of Science and Technology
+
+12:36 "Multimodality Pain and related Behaviors Recognition based on Attention Learning"
+           Van Thong Huynh, Soo-Hyung Kim, Guee-Sang Lee and Hyung-Jeong Yang
+           Chonnam National University
+
+12:48 "Three-level Training of Multi-Head Architecture for Pain Detection"
+           Saandeep Aathreya Sidhapur Lakshminarayan, Saurabh Hinduja and Shaun Canavan
+           University of South Florida
+
+13:00 Break
+
+13:15 "Multimodal Multilevel Fusion for Sequential Protective Behavior Detection and Pain Estimation"
+           Md Taufeeq Uddin and Shaun Canavan
+           University of South Florida
+
+13:27 "Automatic Recognition of Low-Back Chronic Pain Level and Protective Movement Behaviour using Physical and Muscle Activity Information"
+           Fasih Haider, Pierre Albert and Saturnino Luz
+           University of Edinburgh
+
+13:39 "A Curriculum Learning Approach for Pain Intensity Recognition from Facial Expressions"
+           Adria Mallol-Ragolta, Shuo Liu, Nicholas Cummins and Björn Schuller
+           University of Augsburg
+
+13:51 Break
+
+14:15 Announcement of Winner and Award Ceremony
+
+14:35 Closing
+
+
+
+
